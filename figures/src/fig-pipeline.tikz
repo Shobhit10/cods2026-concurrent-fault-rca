@@ -1,0 +1,27 @@
+\setbox2=\hbox{%
+\begin{tikzpicture}[node distance=6mm and 4mm,
+  stage/.style={minimum width=1.25cm, minimum height=1.3cm, inner xsep=3.5pt, inner ysep=3pt},
+  stepb/.style={badge, font=\footnotesize\bfseries, minimum size=4.1mm, inner sep=.6pt},
+  io/.style={inner xsep=3pt, inner ysep=2pt}]
+  \node[iobox, io] (m) {telemetry};
+  \node[card, stage, right=of m] (d) {change-\\point\\detection};
+  \node[card, stage, right=of d] (r) {robust\\deviation\\scoring};
+  \node[ourcard, stage, right=6.6mm of r] (c) {grouped\\deviation\\clustering};
+  \node[okbox, io, minimum height=.7cm, anchor=west] (g1) at ([xshift=4.6mm, yshift=4.4mm]c.east) {incident 1};
+  \node[okbox, io, minimum height=.7cm, anchor=west] (g2) at ([xshift=4.6mm, yshift=-4.4mm]c.east) {incident 2};
+  \node[stepb] (b1) at (d.north west) {1};
+  \node[stepb] (b2) at (r.north west) {2};
+  \node[stepb] (b3) at (c.north west) {3};
+  \draw[flow] (m)--(d); \draw[flow] (d)--(r); \draw[ourflow] (r)--(c);
+  \draw[ourflow] (c.east)--(g1.west); \draw[ourflow] (c.east)--(g2.west);
+  \begin{scope}[on background layer]
+    \node[draw=slate!45, dashed, rounded corners, fit=(m)(d)(r)(b1)(b2), inner sep=1.8mm,
+      label={[font=\footnotesize\sffamily, slate, inner sep=1.5pt]below:existing single-fault paradigm}] {};
+    \node[draw=brand!70, dashed, rounded corners, fit=(c)(b3), inner sep=1.8mm,
+      label={[font=\footnotesize\sffamily, brand, inner sep=1.5pt]below:this paper}] {};
+  \end{scope}
+\end{tikzpicture}}%
+\typeout{NATDIM wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\setbox2=\hbox to\columnwidth{\hss\resizebox{\columnwidth}{!}{\box2}\hss}%
+\typeout{SCALED wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\vbox to 72.09853pt{\vss\box2\vss}%

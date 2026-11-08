@@ -1,0 +1,13 @@
+\begin{algorithmic}[1]
+\Require metric streams $X$, call graph $G$, weight $\alpha$, radius $\varepsilon$
+\Ensure a set of suspected incidents, each a ranked group
+\State $\tau \gets \textsc{DetectChangePoint}(X)$
+\ForAll{candidate metrics $c$}
+  \State split $x_c$ at $\tau$; $\ \mathrm{dev}(c)\gets\max_{t\ge\tau}|(x_c(t)-\mathrm{med})/\mathrm{IQR}|$
+\EndFor
+\State $\pi\gets\operatorname{argsort}_c(-\mathrm{dev}(c))$;\ \ $\widehat{\mathrm{dev}}\gets\mathrm{dev}/\max_c\mathrm{dev}(c)$
+\ForAll{pairs $(a,b)$}\ \ compute $D[a,b]$ by Eq.~\eqref{eq:dist}
+\EndFor
+\State $\mathcal G\gets\textsc{DBSCAN}(D,\varepsilon,\textsc{minPts}{=}2)$
+\State \textbf{return} each group in $\mathcal G$, members ranked by $\mathrm{dev}$
+\end{algorithmic}

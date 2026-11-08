@@ -1,0 +1,27 @@
+\begin{tikzpicture}
+\begin{semilogxaxis}[width=\columnwidth, height=4.4cm,
+  xmin=3, xmax=500, ymin=0, ymax=1.05, ytick={0,.25,.5,.75,1},
+  xtick={3,5,12,25,50,100,250,500}, xticklabels={3,5,12,25,50,100,250,500},
+  log ticks with fixed point, minor xtick={},
+  xlabel={candidate services $N$ (log scale)}, ylabel={ceiling $\mathrm{Both}@k$},
+  ymajorgrids, grid style={slate!18, line width=.3pt},
+  axis lines=left, tick align=outside, tick style={slate!50},
+  label style={font=\footnotesize}, tick label style={font=\footnotesize},
+  legend style={font=\footnotesize, draw=none, fill=none, at={(1,1)}, anchor=north east,
+    legend cell align=left, legend columns=2, row sep=-1pt, /tikz/every even column/.append style={column sep=4pt}},
+  every axis plot/.append style={line width=.9pt}]
+\addplot[brand] coordinates {(3,0.7667) (4,0.7378) (5,0.7093) (6,0.6307) (8,0.5347) (10,0.4534) (12,0.3825) (15,0.2945) (20,0.1890) (25,0.1212) (35,0.0509) (50,0.0149) (75,0.0023) (100,0.0004) (150,0.0000) (250,0.0000) (350,0.0000) (500,0.0000)};
+\addlegendentry{noise floor}
+\addplot[amber] coordinates {(3,0.7667) (4,0.6333) (5,0.6333) (6,0.5333) (8,0.5000) (10,0.5000) (12,0.5000) (15,0.5000) (20,0.5000) (25,0.5000) (35,0.5000) (50,0.5000) (75,0.5000) (100,0.5000) (150,0.5000) (250,0.5000) (350,0.5000) (500,0.5000)};
+\addlegendentry{relative rank}
+\addplot[only marks, mark=*, mark size=1.5pt, bad] coordinates {(5,0.5333) (3,1.0000)};
+\addlegendentry{measured}
+\addlegendimage{ink}
+\addlegendentry{$k{=}5$}
+\addlegendimage{ink, dashed}
+\addlegendentry{$k{=}2$}
+\addplot[brand, dashed, forget plot] coordinates {(3,0.1000) (4,0.0807) (5,0.0654) (6,0.0531) (8,0.0354) (10,0.0239) (12,0.0163) (15,0.0094) (20,0.0040) (25,0.0018) (35,0.0004) (50,0.0000) (75,0.0000) (100,0.0000) (150,0.0000) (250,0.0000) (350,0.0000) (500,0.0000)};
+\addplot[amber, dashed, forget plot] coordinates {(3,0.1000) (4,0.1000) (5,0.1000) (6,0.1000) (8,0.1000) (10,0.1000) (12,0.1000) (15,0.1000) (20,0.1000) (25,0.1000) (35,0.1000) (50,0.1000) (75,0.1000) (100,0.1000) (150,0.1000) (250,0.1000) (350,0.1000) (500,0.1000)};
+\addplot[only marks, mark=o, mark size=1.5pt, bad, forget plot] coordinates {(5,0.0000) (3,0.2000)};
+\end{semilogxaxis}
+\end{tikzpicture}

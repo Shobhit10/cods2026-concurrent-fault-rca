@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Root-Cause Analysis Under Concurrent Microservice Faults: A Measurement Study and a Ranking Bound"
+type: software
+authors:
+  - family-names: Gupta
+    given-names: Shobhit
+    affiliation: "Shiv Nadar Institution of Eminence"
+    orcid: "https://orcid.org/0009-0007-9856-4902"
+  - family-names: Kumari
+    given-names: Suchi
+    affiliation: "Shiv Nadar Institution of Eminence"
+    orcid: "https://orcid.org/0000-0002-6748-5028"
+license: MIT
+repository-code: "https://github.com/Shobhit10/cods2026-concurrent-fault-rca"
+keywords:
+  - root-cause analysis
+  - microservices
+  - concurrent faults
+  - AIOps
+preferred-citation:
+  type: conference-paper
+  title: "Root-Cause Analysis Under Concurrent Microservice Faults: A Measurement Study and a Ranking Bound"
+  authors:
+    - family-names: Gupta
+      given-names: Shobhit
+      affiliation: "Shiv Nadar Institution of Eminence"
+      orcid: "https://orcid.org/0009-0007-9856-4902"
+    - family-names: Kumari
+      given-names: Suchi
+      affiliation: "Shiv Nadar Institution of Eminence"
+      orcid: "https://orcid.org/0000-0002-6748-5028"
+  collection-title: "Proceedings of the ACM IKDD International Conference on Data Science (CODS 2026)"
+  publisher:
+    name: "ACM"
+  conference:
+    name: "ACM IKDD International Conference on Data Science (CODS 2026)"
+    city: "Gandhinagar"
+    country: "IN"
+  year: 2026

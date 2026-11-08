@@ -1,0 +1,281 @@
+[
+ {
+  "id": "boutique_cpu-mem_pair1_rep1",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair1_rep2",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair1_rep3",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair1_rep4",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair1_rep5",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair2_rep1",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair2_rep2",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair2_rep3",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair2_rep4",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair2_rep5",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair3_rep1",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "productcatalogservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair3_rep2",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "productcatalogservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair3_rep3",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "productcatalogservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair3_rep4",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "productcatalogservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair3_rep5",
+  "ns": "boutique",
+  "svc_a": "currencyservice",
+  "fault_a": "cpu",
+  "svc_b": "productcatalogservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair1_rep1",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "carts",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair1_rep2",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "carts",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair1_rep3",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "carts",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair1_rep4",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "carts",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair1_rep5",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "carts",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair2_rep1",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair2_rep2",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair2_rep3",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair2_rep4",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair2_rep5",
+  "ns": "sock-shop",
+  "svc_a": "catalogue",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair3_rep1",
+  "ns": "sock-shop",
+  "svc_a": "carts",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair3_rep2",
+  "ns": "sock-shop",
+  "svc_a": "carts",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair3_rep3",
+  "ns": "sock-shop",
+  "svc_a": "carts",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair3_rep4",
+  "ns": "sock-shop",
+  "svc_a": "carts",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "sockshop_cpu-mem_pair3_rep5",
+  "ns": "sock-shop",
+  "svc_a": "carts",
+  "fault_a": "cpu",
+  "svc_b": "payment",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ },
+ {
+  "id": "boutique_cpu-mem_pair1_rep1_rerun",
+  "ns": "boutique",
+  "svc_a": "adservice",
+  "fault_a": "cpu",
+  "svc_b": "cartservice",
+  "fault_b": "mem",
+  "kind": "concurrent"
+ }
+]

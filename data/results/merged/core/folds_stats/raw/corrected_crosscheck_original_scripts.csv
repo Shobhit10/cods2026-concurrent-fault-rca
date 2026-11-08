@@ -1,0 +1,17 @@
+check,ok
+"rq1_results.csv: 30 rows with ac1, ids identical",True
+per-case ac1 == rq1_results.csv,True
+per-case ac2 == rq1_results.csv,True
+per-case ac3 == rq1_results.csv,True
+per-case ac5 == rq1_results.csv,True
+per-case both2 == second_ranker_percase.csv (robust),True
+per-case both5 == second_ranker_percase.csv (robust),True
+per-case any5 == second_ranker_percase.csv (robust),True
+per-case both3 == second_ranker_percase.csv (robust),True
+per-case ac2 == second_ranker_percase.csv (robust),True
+per-case ns_both2 == second_ranker_percase.csv (nsigma),True
+per-case ns_both5 == second_ranker_percase.csv (nsigma),True
+per-case ns_any5 == second_ranker_percase.csv (nsigma),True
+per-case ns_ac2 == second_ranker_percase.csv (nsigma),True
+"per-case ranks (cpu, mem, n) == faulttype_ranks.csv",True
+top-10 ranked lists == rankings_robust.csv (30 cases),True

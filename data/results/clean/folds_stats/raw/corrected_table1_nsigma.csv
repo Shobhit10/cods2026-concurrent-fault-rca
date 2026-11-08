@@ -1,0 +1,49 @@
+ranker,metric,scope,k,n,unit,value
+BARO robust,AC@1,overall,19,60,cause slots,0.31666666666666665
+BARO robust,AC@2,overall,23,60,cause slots,0.38333333333333336
+BARO robust,AC@3,overall,43,60,cause slots,0.7166666666666667
+BARO robust,AC@5,overall,52,60,cause slots,0.8666666666666667
+BARO robust,Both@2,overall,3,30,cases,0.1
+BARO robust,Both@3,overall,14,30,cases,0.4666666666666667
+BARO robust,Both@5,overall,23,30,cases,0.7666666666666667
+BARO robust,Any@5,overall,29,30,cases,0.9666666666666667
+BARO robust,Any@2,overall,20,30,cases,0.6666666666666666
+N-Sigma,AC@1,overall,8,60,cause slots,0.13333333333333333
+N-Sigma,AC@2,overall,12,60,cause slots,0.2
+N-Sigma,AC@3,overall,26,60,cause slots,0.43333333333333335
+N-Sigma,AC@5,overall,41,60,cause slots,0.6833333333333333
+N-Sigma,Both@2,overall,2,30,cases,0.06666666666666667
+N-Sigma,Both@5,overall,15,30,cases,0.5
+N-Sigma,Any@5,overall,26,30,cases,0.8666666666666667
+BARO robust,AC@1,Online Boutique,8,30,cause slots,0.26666666666666666
+BARO robust,AC@2,Online Boutique,9,30,cause slots,0.3
+BARO robust,AC@3,Online Boutique,17,30,cause slots,0.5666666666666667
+BARO robust,AC@5,Online Boutique,22,30,cause slots,0.7333333333333333
+BARO robust,Both@2,Online Boutique,0,15,cases,0.0
+BARO robust,Both@3,Online Boutique,3,15,cases,0.2
+BARO robust,Both@5,Online Boutique,8,15,cases,0.5333333333333333
+BARO robust,Any@5,Online Boutique,14,15,cases,0.9333333333333333
+BARO robust,Any@2,Online Boutique,9,15,cases,0.6
+N-Sigma,AC@1,Online Boutique,2,30,cause slots,0.06666666666666667
+N-Sigma,AC@2,Online Boutique,4,30,cause slots,0.13333333333333333
+N-Sigma,AC@3,Online Boutique,8,30,cause slots,0.26666666666666666
+N-Sigma,AC@5,Online Boutique,14,30,cause slots,0.4666666666666667
+N-Sigma,Both@2,Online Boutique,0,15,cases,0.0
+N-Sigma,Both@5,Online Boutique,3,15,cases,0.2
+N-Sigma,Any@5,Online Boutique,11,15,cases,0.7333333333333333
+BARO robust,AC@1,Sock Shop,11,30,cause slots,0.36666666666666664
+BARO robust,AC@2,Sock Shop,14,30,cause slots,0.4666666666666667
+BARO robust,AC@3,Sock Shop,26,30,cause slots,0.8666666666666667
+BARO robust,AC@5,Sock Shop,30,30,cause slots,1.0
+BARO robust,Both@2,Sock Shop,3,15,cases,0.2
+BARO robust,Both@3,Sock Shop,11,15,cases,0.7333333333333333
+BARO robust,Both@5,Sock Shop,15,15,cases,1.0
+BARO robust,Any@5,Sock Shop,15,15,cases,1.0
+BARO robust,Any@2,Sock Shop,11,15,cases,0.7333333333333333
+N-Sigma,AC@1,Sock Shop,6,30,cause slots,0.2
+N-Sigma,AC@2,Sock Shop,8,30,cause slots,0.26666666666666666
+N-Sigma,AC@3,Sock Shop,18,30,cause slots,0.6
+N-Sigma,AC@5,Sock Shop,27,30,cause slots,0.9
+N-Sigma,Both@2,Sock Shop,2,15,cases,0.13333333333333333
+N-Sigma,Both@5,Sock Shop,12,15,cases,0.8
+N-Sigma,Any@5,Sock Shop,15,15,cases,1.0

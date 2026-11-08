@@ -1,0 +1,45 @@
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds,calc,shadows.blur}
+
+% ---- palette ----
+\definecolor{ink}{HTML}{1F2937}
+\definecolor{brand}{HTML}{2563EB}
+\definecolor{slate}{HTML}{64748B}
+\definecolor{good}{HTML}{16A34A}
+\definecolor{bad}{HTML}{DC2626}
+\definecolor{amber}{HTML}{D97706}
+
+% ---- diagram styles (soft shadows, badges, cards) ----
+\tikzset{
+  card/.style={draw=slate!55, rounded corners=4pt, fill=slate!8,
+    blur shadow={shadow blur steps=6, shadow xshift=.3pt, shadow yshift=-.7pt, shadow opacity=22},
+    minimum height=.82cm, minimum width=1.55cm, inner sep=3pt, align=center, font=\footnotesize\sffamily},
+  ourcard/.style={card, draw=brand, line width=1pt, fill=brand!12},
+  iobox/.style={draw=slate!45, rounded corners=9pt, fill=white,
+    blur shadow={shadow blur steps=5, shadow xshift=.3pt, shadow yshift=-.6pt, shadow opacity=16},
+    minimum height=.78cm, inner sep=3pt, align=center, font=\footnotesize\sffamily},
+  okbox/.style={iobox, draw=good, fill=good!10},
+  nobox/.style={iobox, draw=bad, fill=bad!10},
+  badge/.style={circle, fill=brand, text=white, font=\tiny\bfseries, inner sep=1pt, minimum size=3.4mm},
+  flow/.style={-{Stealth[length=2.4mm]}, semithick, slate!80},
+  okflow/.style={-{Stealth[length=2.4mm]}, semithick, good},
+  noflow/.style={-{Stealth[length=2.4mm]}, semithick, bad},
+  ourflow/.style={-{Stealth[length=2.6mm]}, line width=1pt, brand},
+}
+% ---- consistent, clean bar-chart look ----
+\pgfplotsset{
+  barbase/.style={
+    ybar, width=\columnwidth, height=4.25cm,
+    ymajorgrids, grid style={slate!18, line width=.3pt},
+    axis lines=left, tick align=outside, tick style={slate!50},
+    nodes near coords={\pgfmathprintnumber[fixed,fixed zerofill,precision=2]{\pgfplotspointmeta}},
+    nodes near coords style={font=\footnotesize\bfseries, text=ink},
+    every axis plot/.append style={fill opacity=.92, draw opacity=1},
+    label style={font=\footnotesize}, tick label style={font=\footnotesize},
+    x tick label style={font=\footnotesize\sffamily},
+  }
+}

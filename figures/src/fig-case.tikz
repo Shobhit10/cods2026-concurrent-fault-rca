@@ -1,0 +1,22 @@
+\setbox2=\hbox{%
+\begin{tikzpicture}[font=\footnotesize\sffamily, node distance=1.4mm]
+  \tikzset{
+    row/.style={rounded corners=3pt, text width=6.1cm, minimum height=.56cm, align=left, inner xsep=6pt},
+    bad/.style={row, draw=slate!65, fill=slate!10},
+    ok/.style={row, draw=amber!65, fill=amber!12},
+    dots/.style={row, draw=slate!30, fill=slate!5},
+  }
+  \node[bad] (r1) {\textbf{1}\ \ adservice (memory usage)\hfill\textcolor{slate}{non-cause}};
+  \node[bad, below=of r1] (r2) {\textbf{2}\ \ adservice (memory working set)\hfill\textcolor{slate}{non-cause}};
+  \node[bad, below=of r2] (r3) {\textbf{3}\ \ adservice (cpu)\hfill\textcolor{slate}{non-cause}};
+  \node[dots, below=of r3] (rd1) {\ \ \raisebox{0pt}[\dimexpr\height-6pt\relax][\depth]{$\vdots$}\hfill};
+  \node[ok, below=of rd1] (r6) {\textbf{6}\ \ productcatalogservice (latency)\hfill\textcolor{amber}{true cause}};
+  \node[dots, below=of r6] (rd) {\ \ \raisebox{0pt}[\dimexpr\height-6pt\relax][\depth]{$\vdots$}\hfill};
+  \node[ok, below=of rd] (r14) {\textbf{14}\ \ currencyservice (memory usage)\hfill\textcolor{amber}{second true cause}};
+  \node[draw=slate!55, dashed, rounded corners, fit=(r1)(r3), inner sep=1.3mm] (bx) {};
+  \node[right=2.2mm of bx, font=\footnotesize\sffamily, text=slate, align=left] {top ranks\\a stage\\reads};
+\end{tikzpicture}}%
+\typeout{NATDIM wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\setbox2=\hbox to\columnwidth{\hss\resizebox{\columnwidth}{!}{\box2}\hss}%
+\typeout{SCALED wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\vbox to 148.19073pt{\vss\box2\vss}%

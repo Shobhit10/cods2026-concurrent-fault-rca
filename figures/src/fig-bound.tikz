@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+\begin{axis}[barbase, bar width=17pt, ymin=0, ymax=1.0, ytick={0,.25,.5,.75,1},
+  symbolic x coords={both@2, both@3, both@5, any@5}, xtick=data, xticklabels={$\mathrm{Both}@2$, $\mathrm{Both}@3$, $\mathrm{Both}@5$, $\mathrm{Any}@5$}, enlarge x limits=.16, ylabel={fraction of cases}]
+\addplot[draw=brand, fill=brand!40] coordinates {(both@2,0.100) (both@3,0.467) (both@5,0.767) (any@5,0.967)};
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,962 @@
+{
+ "boutique_delay-mem_pair1_rep1": {
+  "status": "DONE",
+  "stagger_s": 23.9,
+  "start": 1793080756,
+  "end": 1793080780,
+  "done_at": 1793081080,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "adservice": 1793080756.0
+  },
+  "delay_held_s": {
+   "adservice": 71.0
+  }
+ },
+ "sockshop_delay-mem_pair1_rep1": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793080760,
+  "end": 1793080779,
+  "done_at": 1793081079,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793080760.8
+  },
+  "delay_held_s": {
+   "catalogue": 71.7
+  }
+ },
+ "boutique_cpu-delay_pair1_rep1": {
+  "status": "DONE",
+  "stagger_s": 16.2,
+  "start": 1793081096,
+  "end": 1793081113,
+  "done_at": 1793081413,
+  "rc_a": 124,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793081113.1
+  },
+  "delay_held_s": {
+   "cartservice": 67.3
+  }
+ },
+ "sockshop_cpu-delay_pair1_rep1": {
+  "status": "DONE",
+  "stagger_s": 14.9,
+  "start": 1793081104,
+  "end": 1793081119,
+  "done_at": 1793081419,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793081119.5
+  },
+  "delay_held_s": {
+   "carts": 67.3
+  }
+ },
+ "boutique_delay-mem_pair2_rep1": {
+  "status": "DONE",
+  "stagger_s": 23.6,
+  "start": 1793081438,
+  "end": 1793081462,
+  "done_at": 1793081762,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793081438.6
+  },
+  "delay_held_s": {
+   "currencyservice": 67.5
+  }
+ },
+ "sockshop_delay-mem_pair2_rep1": {
+  "status": "DONE",
+  "stagger_s": 18.8,
+  "start": 1793081448,
+  "end": 1793081467,
+  "done_at": 1793081767,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793081448.4
+  },
+  "delay_held_s": {
+   "catalogue": 67.2
+  }
+ },
+ "boutique_cpu-delay_pair2_rep1": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793081778,
+  "end": 1793081792,
+  "done_at": 1793082092,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793081792.8
+  },
+  "delay_held_s": {
+   "cartservice": 67.2
+  }
+ },
+ "sockshop_cpu-delay_pair2_rep1": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793081789,
+  "end": 1793081804,
+  "done_at": 1793082104,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793081804.1
+  },
+  "delay_held_s": {
+   "payment": 67.8
+  }
+ },
+ "boutique_delay-mem_pair3_rep1": {
+  "status": "DONE",
+  "stagger_s": 27.0,
+  "start": 1793082111,
+  "end": 1793082138,
+  "done_at": 1793082438,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793082111.8
+  },
+  "delay_held_s": {
+   "currencyservice": 67.1
+  }
+ },
+ "sockshop_delay-mem_pair3_rep1": {
+  "status": "DONE",
+  "stagger_s": 18.9,
+  "start": 1793082127,
+  "end": 1793082146,
+  "done_at": 1793082446,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793082127.8
+  },
+  "delay_held_s": {
+   "carts": 67.3
+  }
+ },
+ "boutique_cpu-delay_pair3_rep1": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793082456,
+  "end": 1793082471,
+  "done_at": 1793082771,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "productcatalogservice": 1793082471.1
+  },
+  "delay_held_s": {
+   "productcatalogservice": 67.6
+  }
+ },
+ "sockshop_cpu-delay_pair3_rep1": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793082470,
+  "end": 1793082484,
+  "done_at": 1793082784,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793082484.8
+  },
+  "delay_held_s": {
+   "payment": 67.3
+  }
+ },
+ "boutique_delay-mem_pair1_rep2": {
+  "status": "DONE",
+  "stagger_s": 23.3,
+  "start": 1793082789,
+  "end": 1793082813,
+  "done_at": 1793083113,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "adservice": 1793082789.9
+  },
+  "delay_held_s": {
+   "adservice": 67.4
+  }
+ },
+ "sockshop_delay-mem_pair1_rep2": {
+  "status": "DONE",
+  "stagger_s": 19.6,
+  "start": 1793082807,
+  "end": 1793082827,
+  "done_at": 1793083127,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793082807.9
+  },
+  "delay_held_s": {
+   "catalogue": 67.3
+  }
+ },
+ "boutique_cpu-delay_pair1_rep2": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793083130,
+  "end": 1793083145,
+  "done_at": 1793083445,
+  "rc_a": 124,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793083145.0
+  },
+  "delay_held_s": {
+   "cartservice": 67.2
+  }
+ },
+ "sockshop_cpu-delay_pair1_rep2": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793083150,
+  "end": 1793083165,
+  "done_at": 1793083465,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793083165.4
+  },
+  "delay_held_s": {
+   "carts": 67.4
+  }
+ },
+ "boutique_delay-mem_pair2_rep2": {
+  "status": "DONE",
+  "stagger_s": 23.5,
+  "start": 1793083463,
+  "end": 1793083486,
+  "done_at": 1793083786,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793083463.4
+  },
+  "delay_held_s": {
+   "currencyservice": 67.3
+  }
+ },
+ "sockshop_delay-mem_pair2_rep2": {
+  "status": "DONE",
+  "stagger_s": 18.3,
+  "start": 1793083488,
+  "end": 1793083506,
+  "done_at": 1793083806,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793083488.3
+  },
+  "delay_held_s": {
+   "catalogue": 67.4
+  }
+ },
+ "boutique_cpu-delay_pair2_rep2": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793083803,
+  "end": 1793083818,
+  "done_at": 1793084118,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793083818.0
+  },
+  "delay_held_s": {
+   "cartservice": 67.3
+  }
+ },
+ "sockshop_cpu-delay_pair2_rep2": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793083829,
+  "end": 1793083843,
+  "done_at": 1793084144,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793083843.9
+  },
+  "delay_held_s": {
+   "payment": 67.7
+  }
+ },
+ "boutique_delay-mem_pair3_rep2": {
+  "status": "DONE",
+  "stagger_s": 23.5,
+  "start": 1793084136,
+  "end": 1793084159,
+  "done_at": 1793084459,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793084136.0
+  },
+  "delay_held_s": {
+   "currencyservice": 67.2
+  }
+ },
+ "sockshop_delay-mem_pair3_rep2": {
+  "status": "DONE",
+  "stagger_s": 18.9,
+  "start": 1793084166,
+  "end": 1793084185,
+  "done_at": 1793084485,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793084166.9
+  },
+  "delay_held_s": {
+   "carts": 67.2
+  }
+ },
+ "boutique_cpu-delay_pair3_rep2": {
+  "status": "DONE",
+  "stagger_s": 15.8,
+  "start": 1793084476,
+  "end": 1793084491,
+  "done_at": 1793084791,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "productcatalogservice": 1793084491.8
+  },
+  "delay_held_s": {
+   "productcatalogservice": 67.3
+  }
+ },
+ "sockshop_cpu-delay_pair3_rep2": {
+  "status": "DONE",
+  "stagger_s": 14.8,
+  "start": 1793084510,
+  "end": 1793084525,
+  "done_at": 1793084825,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793084525.4
+  },
+  "delay_held_s": {
+   "payment": 67.3
+  }
+ },
+ "boutique_delay-mem_pair1_rep3": {
+  "status": "DONE",
+  "stagger_s": 23.3,
+  "start": 1793084809,
+  "end": 1793084833,
+  "done_at": 1793085133,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "adservice": 1793084809.8
+  },
+  "delay_held_s": {
+   "adservice": 67.3
+  }
+ },
+ "sockshop_delay-mem_pair1_rep3": {
+  "status": "DONE",
+  "stagger_s": 18.5,
+  "start": 1793084847,
+  "end": 1793084866,
+  "done_at": 1793085166,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793084847.9
+  },
+  "delay_held_s": {
+   "catalogue": 67.1
+  }
+ },
+ "boutique_cpu-delay_pair1_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793085149,
+  "end": 1793085164,
+  "done_at": 1793085464,
+  "rc_a": 124,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793085164.1
+  },
+  "delay_held_s": {
+   "cartservice": 67.2
+  }
+ },
+ "sockshop_cpu-delay_pair1_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793085188,
+  "end": 1793085203,
+  "done_at": 1793085503,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793085203.6
+  },
+  "delay_held_s": {
+   "carts": 67.1
+  }
+ },
+ "boutique_delay-mem_pair2_rep3": {
+  "status": "DONE",
+  "stagger_s": 23.4,
+  "start": 1793085484,
+  "end": 1793085507,
+  "done_at": 1793085807,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793085484.1
+  },
+  "delay_held_s": {
+   "currencyservice": 67.1
+  }
+ },
+ "sockshop_delay-mem_pair2_rep3": {
+  "status": "DONE",
+  "stagger_s": 18.3,
+  "start": 1793085526,
+  "end": 1793085544,
+  "done_at": 1793085844,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793085526.2
+  },
+  "delay_held_s": {
+   "catalogue": 67.1
+  }
+ },
+ "boutique_cpu-delay_pair2_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793085823,
+  "end": 1793085838,
+  "done_at": 1793086138,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793085838.2
+  },
+  "delay_held_s": {
+   "cartservice": 67.1
+  }
+ },
+ "sockshop_cpu-delay_pair2_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793085866,
+  "end": 1793085881,
+  "done_at": 1793086181,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793085881.5
+  },
+  "delay_held_s": {
+   "payment": 67.3
+  }
+ },
+ "boutique_delay-mem_pair3_rep3": {
+  "status": "DONE",
+  "stagger_s": 23.4,
+  "start": 1793086156,
+  "end": 1793086179,
+  "done_at": 1793086479,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793086156.2
+  },
+  "delay_held_s": {
+   "currencyservice": 67.1
+  }
+ },
+ "sockshop_delay-mem_pair3_rep3": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793086204,
+  "end": 1793086222,
+  "done_at": 1793086522,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793086204.1
+  },
+  "delay_held_s": {
+   "carts": 67.1
+  }
+ },
+ "boutique_cpu-delay_pair3_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793086495,
+  "end": 1793086510,
+  "done_at": 1793086810,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "productcatalogservice": 1793086510.5
+  },
+  "delay_held_s": {
+   "productcatalogservice": 67.6
+  }
+ },
+ "sockshop_cpu-delay_pair3_rep3": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793086544,
+  "end": 1793086559,
+  "done_at": 1793086859,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793086559.5
+  },
+  "delay_held_s": {
+   "payment": 67.2
+  }
+ },
+ "boutique_delay-mem_pair1_rep4": {
+  "status": "DONE",
+  "stagger_s": 23.3,
+  "start": 1793086828,
+  "end": 1793086851,
+  "done_at": 1793087152,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "adservice": 1793086828.6
+  },
+  "delay_held_s": {
+   "adservice": 67.2
+  }
+ },
+ "sockshop_delay-mem_pair1_rep4": {
+  "status": "DONE",
+  "stagger_s": 18.3,
+  "start": 1793086881,
+  "end": 1793086900,
+  "done_at": 1793087200,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793086881.9
+  },
+  "delay_held_s": {
+   "catalogue": 67.1
+  }
+ },
+ "boutique_cpu-delay_pair1_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.5,
+  "start": 1793087168,
+  "end": 1793087182,
+  "done_at": 1793087482,
+  "rc_a": 124,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793087182.8
+  },
+  "delay_held_s": {
+   "cartservice": 67.1
+  }
+ },
+ "sockshop_cpu-delay_pair1_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793087222,
+  "end": 1793087237,
+  "done_at": 1793087537,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793087237.4
+  },
+  "delay_held_s": {
+   "carts": 67.1
+  }
+ },
+ "boutique_delay-mem_pair2_rep4": {
+  "status": "DONE",
+  "stagger_s": 23.5,
+  "start": 1793087501,
+  "end": 1793087524,
+  "done_at": 1793087824,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793087501.0
+  },
+  "delay_held_s": {
+   "currencyservice": 67.4
+  }
+ },
+ "sockshop_delay-mem_pair2_rep4": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793087559,
+  "end": 1793087578,
+  "done_at": 1793087878,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793087560.0
+  },
+  "delay_held_s": {
+   "catalogue": 67.3
+  }
+ },
+ "boutique_cpu-delay_pair2_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793087840,
+  "end": 1793087855,
+  "done_at": 1793088155,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793087855.5
+  },
+  "delay_held_s": {
+   "cartservice": 67.1
+  }
+ },
+ "sockshop_cpu-delay_pair2_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793087900,
+  "end": 1793087915,
+  "done_at": 1793088215,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793087915.6
+  },
+  "delay_held_s": {
+   "payment": 67.4
+  }
+ },
+ "boutique_delay-mem_pair3_rep4": {
+  "status": "DONE",
+  "stagger_s": 23.4,
+  "start": 1793088173,
+  "end": 1793088197,
+  "done_at": 1793088497,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793088173.6
+  },
+  "delay_held_s": {
+   "currencyservice": 67.2
+  }
+ },
+ "sockshop_delay-mem_pair3_rep4": {
+  "status": "DONE",
+  "stagger_s": 18.3,
+  "start": 1793088238,
+  "end": 1793088256,
+  "done_at": 1793088556,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793088238.5
+  },
+  "delay_held_s": {
+   "carts": 67.2
+  }
+ },
+ "boutique_cpu-delay_pair3_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793088513,
+  "end": 1793088528,
+  "done_at": 1793088828,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "productcatalogservice": 1793088528.5
+  },
+  "delay_held_s": {
+   "productcatalogservice": 67.5
+  }
+ },
+ "sockshop_cpu-delay_pair3_rep4": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793088580,
+  "end": 1793088595,
+  "done_at": 1793088895,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793088595.2
+  },
+  "delay_held_s": {
+   "payment": 67.4
+  }
+ },
+ "boutique_delay-mem_pair1_rep5": {
+  "status": "DONE",
+  "stagger_s": 23.6,
+  "start": 1793088847,
+  "end": 1793088871,
+  "done_at": 1793089171,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "adservice": 1793088847.4
+  },
+  "delay_held_s": {
+   "adservice": 70.9
+  }
+ },
+ "sockshop_delay-mem_pair1_rep5": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793088921,
+  "end": 1793088939,
+  "done_at": 1793089239,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793088921.4
+  },
+  "delay_held_s": {
+   "catalogue": 67.2
+  }
+ },
+ "boutique_cpu-delay_pair1_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793089192,
+  "end": 1793089207,
+  "done_at": 1793089507,
+  "rc_a": 124,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793089207.4
+  },
+  "delay_held_s": {
+   "cartservice": 67.2
+  }
+ },
+ "sockshop_cpu-delay_pair1_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.5,
+  "start": 1793089262,
+  "end": 1793089277,
+  "done_at": 1793089577,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793089277.1
+  },
+  "delay_held_s": {
+   "carts": 67.3
+  }
+ },
+ "boutique_delay-mem_pair2_rep5": {
+  "status": "DONE",
+  "stagger_s": 24.0,
+  "start": 1793089526,
+  "end": 1793089550,
+  "done_at": 1793089850,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793089526.1
+  },
+  "delay_held_s": {
+   "currencyservice": 67.2
+  }
+ },
+ "sockshop_delay-mem_pair2_rep5": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793089599,
+  "end": 1793089618,
+  "done_at": 1793089918,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "catalogue": 1793089599.8
+  },
+  "delay_held_s": {
+   "catalogue": 67.2
+  }
+ },
+ "boutique_cpu-delay_pair2_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793089866,
+  "end": 1793089881,
+  "done_at": 1793090181,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "cartservice": 1793089881.2
+  },
+  "delay_held_s": {
+   "cartservice": 67.4
+  }
+ },
+ "sockshop_cpu-delay_pair2_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.7,
+  "start": 1793089940,
+  "end": 1793089955,
+  "done_at": 1793090255,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793089955.5
+  },
+  "delay_held_s": {
+   "payment": 67.3
+  }
+ },
+ "boutique_delay-mem_pair3_rep5": {
+  "status": "DONE",
+  "stagger_s": 23.5,
+  "start": 1793090199,
+  "end": 1793090222,
+  "done_at": 1793090522,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "currencyservice": 1793090199.4
+  },
+  "delay_held_s": {
+   "currencyservice": 67.1
+  }
+ },
+ "sockshop_delay-mem_pair3_rep5": {
+  "status": "DONE",
+  "stagger_s": 18.4,
+  "start": 1793090278,
+  "end": 1793090296,
+  "done_at": 1793090596,
+  "rc_a": 0,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "carts": 1793090278.4
+  },
+  "delay_held_s": {
+   "carts": 67.1
+  }
+ },
+ "boutique_cpu-delay_pair3_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793090539,
+  "end": 1793090553,
+  "done_at": 1793090854,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "productcatalogservice": 1793090553.9
+  },
+  "delay_held_s": {
+   "productcatalogservice": 67.2
+  }
+ },
+ "sockshop_cpu-delay_pair3_rep5": {
+  "status": "DONE",
+  "stagger_s": 14.6,
+  "start": 1793090619,
+  "end": 1793090634,
+  "done_at": 1793090934,
+  "rc_a": 143,
+  "rc_b": 0,
+  "delay_ms": 300,
+  "delay_on": {
+   "payment": 1793090634.0
+  },
+  "delay_held_s": {
+   "payment": 69.4
+  }
+ }
+}

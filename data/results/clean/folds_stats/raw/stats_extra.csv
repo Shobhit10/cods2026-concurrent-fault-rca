@@ -1,0 +1,26 @@
+quantity,scope,k,n,estimate,method,lo,hi,note
+Any@2 (at least one cause in top 2),Online Boutique,9,15,0.6,Clopper-Pearson exact 95%,0.3228697662062817,0.8366356761404865,
+Any@2 (at least one cause in top 2),Online Boutique,9,15,0.6,Wilson 95%,0.357468301206246,0.8017550385865841,
+concurrent AC@2,Online Boutique,9,30,0.3,"conservative exact 95% bracket [CP_lo(Both@2), CP_hi(Any@2)]",0.0,0.8366356761404865,"Both@2=0/15, Any@2=9/15; valid because Both@2 <= AC@2 <= Any@2 per case; union of two one-sided 97.5% bounds; cases treated as independent"
+drop: single AC@1 minus concurrent AC@2,Online Boutique,70/100 vs 9/30,,0.39999999999999997,conservative exact lower bound CP_lo(single AC@1) - CP_hi(Any@2) (>=95%),-0.23645035232029066,,"CP_lo(single)=0.600, CP_hi(Any@2)=0.837; positive => drop established without the slot independence assumption"
+drop: single AC@1 minus concurrent AC@2,Online Boutique,70/100 vs 9/30,,0.39999999999999997,Newcombe hybrid-score (Wilson) 95% on cause slots (approximate),0.19716676416042217,0.5560518577690134,treats the 2 cause slots per concurrent case as independent
+drop: single AC@1 minus concurrent AC@2,Online Boutique,70/100 vs 9/30,,0.39999999999999997,"cluster-robust t 95% (pairs/scenarios as clusters, df=2)",-0.01567574476031458,0.8156757447603145,"SE_conc=0.058 (3 pairs), SE_single=0.077 (20 scenarios); df = #pairs-1 is conservative"
+concurrent AC@2,Online Boutique,9,30,0.3,"cluster-robust t 95% (pairs as clusters, df=2)",0.05158622882804545,0.5484137711719546,SE=0.058
+Any@2 (at least one cause in top 2),Sock Shop,11,15,0.7333333333333333,Clopper-Pearson exact 95%,0.44899675896302954,0.9221284537089564,
+Any@2 (at least one cause in top 2),Sock Shop,11,15,0.7333333333333333,Wilson 95%,0.4804956594401943,0.8910254667430761,
+concurrent AC@2,Sock Shop,14,30,0.4666666666666667,"conservative exact 95% bracket [CP_lo(Both@2), CP_hi(Any@2)]",0.04331200510583662,0.9221284537089564,"Both@2=3/15, Any@2=11/15; valid because Both@2 <= AC@2 <= Any@2 per case; union of two one-sided 97.5% bounds; cases treated as independent"
+drop: single AC@1 minus concurrent AC@2,Sock Shop,85/100 vs 14/30,,0.3833333333333333,conservative exact lower bound CP_lo(single AC@1) - CP_hi(Any@2) (>=95%),-0.1574359538579112,,"CP_lo(single)=0.765, CP_hi(Any@2)=0.922; positive => drop established without the slot independence assumption"
+drop: single AC@1 minus concurrent AC@2,Sock Shop,85/100 vs 14/30,,0.3833333333333333,Newcombe hybrid-score (Wilson) 95% on cause slots (approximate),0.19250644853137713,0.5572607000841726,treats the 2 cause slots per concurrent case as independent
+drop: single AC@1 minus concurrent AC@2,Sock Shop,85/100 vs 14/30,,0.3833333333333333,"cluster-robust t 95% (pairs/scenarios as clusters, df=2)",-0.29238512992198185,1.0590517965886486,"SE_conc=0.145 (3 pairs), SE_single=0.060 (20 scenarios); df = #pairs-1 is conservative"
+concurrent AC@2,Sock Shop,14,30,0.4666666666666667,"cluster-robust t 95% (pairs as clusters, df=2)",-0.15849428126316367,1.0918276145964971,SE=0.145
+Any@2 (at least one cause in top 2),Both systems,20,30,0.6666666666666666,Clopper-Pearson exact 95%,0.47187995521011944,0.8271257784739607,
+Any@2 (at least one cause in top 2),Both systems,20,30,0.6666666666666666,Wilson 95%,0.4878005164454384,0.8076950191632386,
+concurrent AC@2,Both systems,23,60,0.38333333333333336,"conservative exact 95% bracket [CP_lo(Both@2), CP_hi(Any@2)]",0.02111713702972258,0.8271257784739607,"Both@2=3/30, Any@2=20/30; valid because Both@2 <= AC@2 <= Any@2 per case; union of two one-sided 97.5% bounds; cases treated as independent"
+drop: single AC@1 minus concurrent AC@2,Both systems,155/200 vs 23/60,,0.39166666666666666,conservative exact lower bound CP_lo(single AC@1) - CP_hi(Any@2) (>=95%),-0.11636538444272548,,"CP_lo(single)=0.711, CP_hi(Any@2)=0.827; positive => drop established without the slot independence assumption"
+drop: single AC@1 minus concurrent AC@2,Both systems,155/200 vs 23/60,,0.39166666666666666,Newcombe hybrid-score (Wilson) 95% on cause slots (approximate),0.2504704855722307,0.5157167238930516,treats the 2 cause slots per concurrent case as independent
+drop: single AC@1 minus concurrent AC@2,Both systems,155/200 vs 23/60,,0.39166666666666666,"cluster-robust t 95% (pairs/scenarios as clusters, df=5)",0.15122543412256728,0.632107899210766,"SE_conc=0.079 (6 pairs), SE_single=0.050 (40 scenarios); df = #pairs-1 is conservative"
+concurrent AC@2,Both systems,23,60,0.38333333333333336,"cluster-robust t 95% (pairs as clusters, df=5)",0.17965989099807617,0.5870067756685906,SE=0.079
+separation (pooled held-out),Both systems,17.0,30,0.5666666666666667,"pair-clustered bootstrap 95% (percentile, B=20000)",0.3,0.8,clusters resampled within system
+grouped AC@1 (pooled held-out),Both systems,19.0,30,0.6333333333333333,"pair-clustered bootstrap 95% (percentile, B=20000)",0.48333333333333334,0.7833333333333333,clusters resampled within system
+single kept (pooled held-out),Both systems,182.0,200,0.91,"scenario-clustered bootstrap 95% (percentile, B=20000)",0.845,0.96,clusters resampled within system
+hit rate (pooled held-out),Both systems,148.0,200,0.74,"scenario-clustered bootstrap 95% (percentile, B=20000)",0.6448750000000001,0.83,clusters resampled within system

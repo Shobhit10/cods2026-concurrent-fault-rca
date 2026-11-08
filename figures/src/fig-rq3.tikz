@@ -1,0 +1,10 @@
+\setbox2=\hbox{%
+\begin{tikzpicture}
+\begin{axis}[barbase, bar width=26pt, ymin=0, ymax=1, ytick={0,.25,.5,.75,1},
+  symbolic x coords={rank-position, magnitude (ours)}, xtick=data, enlarge x limits=.5,
+  ylabel={single-fault cases kept whole}, y label style={font=\footnotesize}, height=4.15cm]
+\addplot[draw=brand, fill=brand!40] coordinates {(rank-position,0.0) (magnitude (ours),0.910)};
+\end{axis}
+\end{tikzpicture}}%
+\typeout{NATDIM wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\vbox to 98.27432pt{\vss\box2\vss}%

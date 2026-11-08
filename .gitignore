@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+*-env/
+.conda/
+
+# Credentials and cluster access (never commit)
+*.kubeconfig
+kubeconfig*
+.kube/
+.env
+.env.*
+*.pem
+*.key
+
+# Large or regenerable caches; per-case records of BARO's single-fault cases (not redistributed)
+**/rankers/cache/
+**/raw/cases/sf__*.json
+*.tmp
+
+# Re-run outputs (see README: CODS_OUT_DIR, CODS_OUT, CODS_RANKERS_OUT, CODS_SCALE_OUT)
+outputs/
+rerun/
+
+# Third-party data placed locally by the user (BARO single-fault cases; not redistributed)
+external/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

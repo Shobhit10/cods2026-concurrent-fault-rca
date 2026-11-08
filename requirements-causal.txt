@@ -1,0 +1,11 @@
+# Only needed to re-run analysis/camera_ready/rankers/step2_causal.py (CIRCA, RCD and the learned rankers, Table 2).
+# CIRCA was run with RCAEval 1.6.0 in a separate Python 3.12 environment.
+# RCD was run in RCAEval's own Python 3.8 RCD environment (RCAEval ships a patched causal-learn for RCD);
+# create that environment with RCAEval's installation instructions.
+# The stored outputs of this step are in data/results/clean/rankers/causal_*_concurrent.json,
+# so Table 2 can be rebuilt without these packages.
+# The learned rankers (CausalRCA, RUN) also need CPU torch (pip install torch --index-url
+# https://download.pytorch.org/whl/cpu) and scikit-network==0.33.5 (0.33.0 wheels are built for numpy 1); their stored
+# outputs are in data/results/learned_rankers/<fmt>/causal_{causalrca,run,run_native}_concurrent.json. The full
+# package freeze of those runs is analysis/camera_ready/rankers/learned/requirements_causal_venv_freeze.txt.
+RCAEval==1.6.0

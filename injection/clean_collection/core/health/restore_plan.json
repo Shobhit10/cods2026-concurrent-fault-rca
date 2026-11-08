@@ -1,0 +1,434 @@
+[
+ {
+  "ns": "boutique",
+  "dep": "adservice",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "300Mi"
+   },
+   "requests": {
+    "cpu": "200m",
+    "memory": "180Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "cartservice",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "200m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "checkoutservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "currencyservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "emailservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "frontend",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "paymentservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "productcatalogservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "recommendationservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "450Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "220Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "boutique",
+  "dep": "shippingservice",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "128Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "64Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "carts",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "500Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "200Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "catalogue",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "200Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "100Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "front-end",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "1000Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "300Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "orders",
+  "aug19": {
+   "limits": {
+    "cpu": "500m",
+    "memory": "500Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "300Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "payment",
+  "aug19": {
+   "limits": {
+    "cpu": "200m",
+    "memory": "200Mi"
+   },
+   "requests": {
+    "cpu": "99m",
+    "memory": "100Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "queue-master",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "500Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "300Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "shipping",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "500Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "300Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ },
+ {
+  "ns": "sock-shop",
+  "dep": "user",
+  "aug19": {
+   "limits": {
+    "cpu": "300m",
+    "memory": "200Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "100Mi"
+   }
+  },
+  "now": {
+   "limits": {
+    "cpu": "1",
+    "memory": "1536Mi"
+   },
+   "requests": {
+    "cpu": "100m",
+    "memory": "512Mi"
+   }
+  }
+ }
+]

@@ -1,0 +1,25 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Shobhit Gupta and Suchi Kumari
+
+The data measured and produced by the authors in this repository are licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+Licence summary: https://creativecommons.org/licenses/by/4.0/
+Full legal code:  https://creativecommons.org/licenses/by/4.0/legalcode
+
+This licence covers:
+  - data/concurrent_clean/, data/larger_set/, data/netdelay/   (metric exports, ground truth, case reports,
+                                                              manifests, fault checks and run records)
+  - data/merged_format/                                       (the same cases in the merged format)
+  - data/results/**, data/reference_results/**                (the authors' analysis outputs and tables)
+  - injection/**/cases_ext.json, injection/**/injection_check.csv, injection/clean_collection/core/health/
+                                                              (case lists, per-fault visibility checks, resource plan)
+
+You may share and adapt these data for any purpose, provided you give appropriate credit,
+for example by citing the paper (see CITATION.cff), and indicate if changes were made.
+
+Not covered: the single-fault cases published with BARO are not part of this repository and
+are not licensed here. Obtain them from the BARO / RCAEval public release under their own terms.
+
+The code in this repository (Python and shell scripts, Kubernetes manifests and figure sources)
+is licensed separately under the MIT licence; see LICENSE.

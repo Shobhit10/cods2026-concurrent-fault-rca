@@ -1,0 +1,14 @@
+\setbox2=\hbox{%
+\begin{tikzpicture}[node distance=1.2mm]
+  \tikzset{stat/.style={rounded corners=4pt, draw=#1!70, fill=#1!8, line width=.8pt,
+    blur shadow={shadow blur steps=5, shadow blur radius=1.2pt, shadow xshift=.3pt, shadow yshift=-.6pt, shadow opacity=20},
+    minimum height=1.2cm, inner xsep=3.4pt, inner ysep=2.5pt, align=center, font=\footnotesize\sffamily}}
+  \node[stat=amber] (a) {\textcolor{amber}{\textbf{\large 2$\times$}}\\[1pt]independent faults\\at once};
+  \node[stat=bad, right=of a] (b) {\textcolor{bad}{\textbf{\large 0.70$\to$0.30}}\\[1pt]one fault vs.\ two\\(Online Boutique)};
+  \node[stat=slate, right=of b] (c) {\textcolor{slate}{\textbf{\large $\sim$10\%}}\\[1pt]both causes in\\the top two};
+  \node[stat=brand, right=of c] (d) {\textcolor{brand}{\textbf{\large 91\%}}\\[1pt]single-fault cases\\kept whole};
+\end{tikzpicture}}%
+\typeout{NATDIM wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\setbox2=\hbox to\columnwidth{\hss\resizebox{\columnwidth}{!}{\box2}\hss}%
+\typeout{SCALED wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\vbox to 38.10747pt{\vss\box2\vss}%

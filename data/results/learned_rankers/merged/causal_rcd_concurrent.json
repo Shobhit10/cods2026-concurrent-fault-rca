@@ -1,0 +1,3646 @@
+[
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 10.728017568588257
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 11.70894169807434
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 9.993634223937988
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 10.019019842147827
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 6.966923952102661
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 7.6771485805511475
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "currencyservice_istio_latency",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.906734466552734
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 8.323417663574219
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.158491849899292
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 8.440278768539429
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.7194995880126953
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "cartservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.467142343521118
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 4.120161056518555
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "adservice_cpu_usage_seconds",
+   "currencyservice_istio_requests",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.055510759353638
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.267064094543457
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.642388343811035
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "checkoutservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.0357768535614014
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.635765314102173
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.5034596920013428
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "currencyservice_istio_requests",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.892972707748413
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "checkoutservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 4.4743781089782715
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 6.249354600906372
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.5502843856811523
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 4.553401231765747
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "checkoutservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.853170871734619
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.441957473754883
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "currencyservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.5086989402770996
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.3519287109375
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.915976047515869
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.2582695484161377
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.7418928146362305
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.207991600036621
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.264092445373535
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.8283956050872803
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.18494176864624
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.780996561050415
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.5152499675750732
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.20087194442749
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.664335489273071
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.705127716064453
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.0927162170410156
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "adservice_istio_latency",
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 4.366358518600464
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "cartservice_istio_requests",
+   "adservice_istio_requests",
+   "adservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 6.422555446624756
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 4.76869797706604
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.5758326053619385
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_requests",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.322023391723633
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "checkoutservice_istio_latency",
+   "adservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.7743113040924072
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "currencyservice_istio_requests",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.672201156616211
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "adservice_istio_latency",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.021846294403076
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 4.699436187744141
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "cartservice_memory_working_set_bytes",
+   "cartservice_istio_requests",
+   "adservice_istio_requests",
+   "currencyservice_istio_requests",
+   "currencyservice_istio_latency",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.362067461013794
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_memory_working_set_bytes",
+   "cartservice_istio_requests",
+   "checkoutservice_cpu_usage_seconds",
+   "adservice_istio_requests",
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 4.861541986465454
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "cartservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9983739852905273
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.508035898208618
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.61687970161438
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "cartservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "adservice_istio_requests",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 4.4860241413116455
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes",
+   "checkoutservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.516846179962158
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_istio_requests",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 4.813575983047485
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "cartservice_istio_latency",
+   "productcatalogservice_cpu_usage_seconds",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_requests",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.5186233520507812
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.517732858657837
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.7298810482025146
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.1493265628814697
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.032191514968872
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.4866352081298828
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "checkoutservice_istio_latency",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.373880386352539
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.0090668201446533
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.6071743965148926
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "checkoutservice_istio_latency",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.8100411891937256
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "checkoutservice_istio_latency",
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.642660140991211
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.0016849040985107
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.9671847820281982
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.3484976291656494
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.7801392078399658
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.8361155986785889
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.2935101985931396
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.2714426517486572
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.296166181564331
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.677495241165161
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9260876178741455
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "adservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.672309398651123
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_istio_latency",
+   "cartservice_istio_latency",
+   "checkoutservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_cpu_usage_seconds",
+   "currencyservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 6.179589033126831
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_istio_latency",
+   "productcatalogservice_istio_latency",
+   "adservice_istio_requests",
+   "checkoutservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_latency",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 9.573392868041992
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "adservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "adservice_istio_requests",
+   "adservice_cpu_usage_seconds",
+   "currencyservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 9.021207094192505
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_istio_latency",
+   "cartservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "adservice_memory_working_set_bytes",
+   "adservice_cpu_usage_seconds",
+   "checkoutservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 8.968313455581665
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_latency",
+   "adservice_istio_requests",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 7.689280271530151
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "adservice_istio_latency",
+   "cartservice_istio_latency",
+   "checkoutservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.8781583309173584
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "checkoutservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.913357734680176
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "adservice_istio_latency",
+   "adservice_istio_requests",
+   "productcatalogservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 5.943226337432861
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "adservice_istio_latency",
+   "currencyservice_istio_latency",
+   "adservice_istio_requests",
+   "cartservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "adservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.9654619693756104
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "adservice_istio_latency",
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "productcatalogservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency",
+   "adservice_istio_requests",
+   "checkoutservice_istio_latency",
+   "adservice_cpu_usage_seconds",
+   "currencyservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 10.079368591308594
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "productcatalogservice_istio_requests",
+   "cartservice_cpu_usage_seconds",
+   "currencyservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.682429552078247
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.498495578765869
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "productcatalogservice_istio_requests",
+   "checkoutservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.429494619369507
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "productcatalogservice_istio_requests",
+   "checkoutservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.6861751079559326
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "productcatalogservice_istio_requests",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.006267547607422
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.7842299938201904
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "cartservice_istio_requests",
+   "adservice_istio_latency",
+   "productcatalogservice_istio_requests",
+   "cartservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.5319297313690186
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "productcatalogservice_istio_requests",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.232933282852173
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "cartservice_istio_requests",
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.2019383907318115
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.915205955505371
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "cartservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.4864909648895264
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.5354228019714355
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.74408221244812
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "currencyservice_istio_latency",
+   "adservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.8426692485809326
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 4.001008987426758
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.1222803592681885
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.6180918216705322
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.9627983570098877
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "cartservice_istio_latency",
+   "currencyservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "checkoutservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.064603567123413
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes",
+   "adservice_memory_working_set_bytes",
+   "cartservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.6930651664733887
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.7586894035339355
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 0.7557754516601562
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 0.5825464725494385
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.1038546562194824
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.0364680290222168
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.0770237445831299
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.8057329654693604
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.8909571170806885
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 0.8794698715209961
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "productcatalogservice_cpu_usage_seconds",
+   "cartservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.7504396438598633
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "currencyservice_istio_latency",
+   "cartservice_istio_requests",
+   "checkoutservice_istio_requests",
+   "currencyservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 7.759231805801392
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "checkoutservice_istio_latency",
+   "productcatalogservice_istio_requests",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds",
+   "currencyservice_istio_requests",
+   "adservice_istio_latency",
+   "cartservice_cpu_usage_seconds",
+   "productcatalogservice_memory_working_set_bytes",
+   "checkoutservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 6.9337968826293945
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "productcatalogservice_istio_requests",
+   "currencyservice_memory_working_set_bytes",
+   "cartservice_istio_requests",
+   "cartservice_istio_latency",
+   "checkoutservice_memory_working_set_bytes",
+   "currencyservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.6597909927368164
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_requests",
+   "adservice_istio_requests",
+   "adservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds",
+   "currencyservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 6.937196493148804
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_memory_working_set_bytes",
+   "currencyservice_cpu_usage_seconds",
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 4.318310022354126
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "adservice_istio_latency",
+   "currencyservice_cpu_usage_seconds",
+   "currencyservice_istio_requests",
+   "cartservice_istio_latency",
+   "currencyservice_memory_working_set_bytes",
+   "productcatalogservice_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 5.257624626159668
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "currencyservice_memory_working_set_bytes",
+   "adservice_istio_latency",
+   "currencyservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 5.807315826416016
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "cartservice_istio_requests",
+   "currencyservice_istio_latency",
+   "currencyservice_memory_working_set_bytes",
+   "productcatalogservice_istio_requests",
+   "checkoutservice_istio_latency",
+   "currencyservice_istio_requests",
+   "cartservice_istio_latency",
+   "adservice_istio_requests",
+   "productcatalogservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 7.213482618331909
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "adservice_memory_working_set_bytes",
+   "cartservice_memory_working_set_bytes",
+   "checkoutservice_istio_requests",
+   "productcatalogservice_cpu_usage_seconds",
+   "currencyservice_istio_latency",
+   "productcatalogservice_istio_requests",
+   "adservice_istio_requests",
+   "cartservice_istio_latency",
+   "checkoutservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 5.809782266616821
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "adservice_istio_requests",
+   "checkoutservice_istio_latency",
+   "productcatalogservice_istio_requests",
+   "currencyservice_istio_latency",
+   "cartservice_istio_latency",
+   "productcatalogservice_cpu_usage_seconds",
+   "currencyservice_istio_requests",
+   "cartservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 12.74363398551941
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.005270719528198
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 4.35197114944458
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 5.111375570297241
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.8913183212280273
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.351299524307251
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.0496954917907715
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.459498167037964
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "productcatalogservice_istio_latency",
+   "cartservice_istio_requests",
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.491173505783081
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.217857599258423
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "checkoutservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.2272467613220215
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.5177903175354004
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency",
+   "cartservice_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.0619447231292725
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.4525532722473145
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 4.105234146118164
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.052063465118408
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.6933228969573975
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "productcatalogservice_istio_latency",
+   "currencyservice_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.51000714302063
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.3521754741668701
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "cartservice_memory_working_set_bytes",
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.0899367332458496
+ },
+ {
+  "case_id": "boutique_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "productcatalogservice_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.798996925354004
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.246617317199707
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.6783673763275146
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_istio_latency",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.833637237548828
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.7720468044281006
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.697160005569458
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "carts_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.7173964977264404
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0397145748138428
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.4017961025238037
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.0577661991119385
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.2639508247375488
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_istio_latency",
+   "payment_istio_latency",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.8612923622131348
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.2538611888885498
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_istio_latency",
+   "catalogue_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.4469420909881592
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.285292625427246
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0436904430389404
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.9415078163146973
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9247279167175293
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.8866007328033447
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.08158278465271
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.5381054878234863
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9544310569763184
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.9046525955200195
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.9348976612091064
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.016063690185547
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.5616748332977295
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.2104897499084473
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "carts_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.2862484455108643
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.321925640106201
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.1966526508331299
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 5.041939735412598
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "payment_istio_requests",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.8803949356079102
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_istio_requests",
+   "catalogue_memory_working_set_bytes",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.0989744663238525
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_istio_requests",
+   "catalogue_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.0675537586212158
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_istio_requests",
+   "payment_istio_requests",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.5366361141204834
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_istio_requests",
+   "payment_istio_requests",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.3939094543457031
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.392754077911377
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.1821751594543457
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "catalogue_istio_requests",
+   "carts_istio_requests",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.1596777439117432
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "payment_istio_requests",
+   "catalogue_istio_requests",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0747387409210205
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_istio_requests",
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.023721694946289
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.5739610195159912
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0763676166534424
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.6233606338500977
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.10786771774292
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0821106433868408
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.250722885131836
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.642185926437378
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.7212140560150146
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.4835708141326904
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair1_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.1969876289367676
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_memory_working_set_bytes",
+   "carts_istio_latency",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.4938735961914062
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_latency",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.676671266555786
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests",
+   "catalogue_istio_latency",
+   "payment_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.9536845684051514
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.0317282676696777
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.1898746490478516
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0538952350616455
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_memory_working_set_bytes",
+   "carts_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.454028844833374
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.6046040058135986
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "carts_istio_latency",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.4966542720794678
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.4424471855163574
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "carts_istio_latency",
+   "catalogue_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.8219397068023682
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "carts_istio_latency",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.7343306541442871
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_istio_requests",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 0.9419119358062744
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_istio_requests",
+   "payment_istio_latency",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 0.8180246353149414
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_istio_requests",
+   "catalogue_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 0.8744831085205078
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_istio_requests",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.3513872623443604
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "catalogue_istio_requests",
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.5912432670593262
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_istio_requests",
+   "carts_istio_latency",
+   "payment_memory_working_set_bytes",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.3998074531555176
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.1750192642211914
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_istio_requests",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.5030725002288818
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "carts_istio_requests",
+   "carts_memory_working_set_bytes",
+   "payment_cpu_usage_seconds",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.200978994369507
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.9544522762298584
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "carts_istio_requests",
+   "catalogue_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.423755407333374
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_latency",
+   "payment_istio_requests",
+   "catalogue_istio_requests",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.0761587619781494
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "catalogue_cpu_usage_seconds",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.7760629653930664
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.713920831680298
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "carts_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.6059696674346924
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.459015130996704
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "carts_istio_latency",
+   "catalogue_cpu_usage_seconds",
+   "carts_memory_working_set_bytes",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.246029853820801
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.353950023651123
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.1239569187164307
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.264223098754883
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "payment_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.3239467144012451
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.3043930530548096
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.601292371749878
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_latency",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.4070656299591064
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_latency",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.795764684677124
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.338695764541626
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.8884680271148682
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.4427649974822998
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "carts_istio_latency",
+   "catalogue_memory_working_set_bytes",
+   "payment_cpu_usage_seconds",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.6419150829315186
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.3505098819732666
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_cpu_usage_seconds",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.1831672191619873
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9855341911315918
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.028024196624756
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.915597677230835
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.1530919075012207
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.9041850566864014
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "carts_istio_latency",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.316824197769165
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair2_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "payment_istio_latency",
+   "payment_cpu_usage_seconds",
+   "carts_istio_requests",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.2281723022460938
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.9072985649108887
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.7528533935546875
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 2.0347344875335693
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "carts_istio_requests",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.5053682327270508
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.7124369144439697
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.2915821075439453
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "carts_istio_requests",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.419346809387207
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_istio_requests",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.9858853816986084
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.8419065475463867
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep1",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_istio_requests",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.7207937240600586
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "carts_istio_latency",
+   "catalogue_istio_requests",
+   "payment_cpu_usage_seconds",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 3.4508612155914307
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.678736925125122
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.559126615524292
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "catalogue_istio_latency",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.5672802925109863
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "payment_istio_requests",
+   "catalogue_istio_latency",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.4551427364349365
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "catalogue_istio_requests",
+   "carts_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.5232436656951904
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_istio_latency",
+   "carts_istio_requests",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.4581704139709473
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_requests",
+   "catalogue_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 3.421886920928955
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "catalogue_istio_latency",
+   "catalogue_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.8227519989013672
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep2",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_memory_working_set_bytes",
+   "payment_istio_latency",
+   "payment_istio_requests",
+   "catalogue_istio_latency",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.5490775108337402
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.278381824493408
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.137662887573242
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.827331781387329
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.073376178741455
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.0419187545776367
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.6894285678863525
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.9024720191955566
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.7138826847076416
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.2638912200927734
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep3",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.161419153213501
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "payment_istio_latency",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.782484531402588
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 3.862020969390869
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "payment_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 2.870452404022217
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "payment_istio_latency",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.8422527313232422
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.073180675506592
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.8148703575134277
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_memory_working_set_bytes",
+   "payment_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 4.395094633102417
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "carts_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 3.3293416500091553
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.7848734855651855
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep4",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "catalogue_istio_latency",
+   "payment_istio_requests",
+   "catalogue_cpu_usage_seconds",
+   "payment_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.370680809020996
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 0,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_latency",
+   "carts_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.5679786205291748
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 1,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 0.9039943218231201
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 2,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.127890110015869
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 3,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_istio_requests",
+   "payment_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.3330862522125244
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 4,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 1.4908249378204346
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 5,
+  "ranks": [
+   "catalogue_memory_working_set_bytes",
+   "payment_memory_working_set_bytes",
+   "carts_istio_latency"
+  ],
+  "ok": true,
+  "runtime_s": 1.169233798980713
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 6,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_istio_latency",
+   "carts_memory_working_set_bytes"
+  ],
+  "ok": true,
+  "runtime_s": 2.5250110626220703
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 7,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_memory_working_set_bytes",
+   "carts_istio_requests",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 2.0628209114074707
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 8,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "catalogue_cpu_usage_seconds"
+  ],
+  "ok": true,
+  "runtime_s": 1.6456985473632812
+ },
+ {
+  "case_id": "sockshop_cpu-mem_pair3_rep5",
+  "method": "rcd",
+  "seed": 9,
+  "ranks": [
+   "payment_memory_working_set_bytes",
+   "payment_istio_requests"
+  ],
+  "ok": true,
+  "runtime_s": 1.7112300395965576
+ }
+]

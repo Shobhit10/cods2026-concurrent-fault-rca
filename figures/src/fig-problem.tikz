@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\node[draw=brand!80, line width=.8pt, rounded corners=4pt, fill=brand!4,
+  inner xsep=4pt, inner ysep=3.5pt, font=\small] (pb) {%
+\renewcommand{\arraystretch}{1.0}%
+\begin{tabular}{@{}p{1.5cm}@{\hspace{5pt}}p{6.4cm}@{}}
+\textbf{Given} & A call graph $G=(V,E)$, metrics for each service, and an incident whose root-cause services form $F\subseteq V$.\\[2pt]
+\textbf{Goal} & Name every cause in $F$. When $|F|=2$, also place the two causes in different groups.\\[2pt]
+\textbf{Single-fault}\newline\textbf{assumption} & The ranking paradigm assumes $|F|=1$, so one change point and the top of one list $\pi$ describe one incident.\\[2pt]
+\textbf{What}\newline\textbf{breaks} & Two faults in services that do not call each other \mbox{($|F|=2$)} still yield one change point and one flat list.\\[2pt]
+\textbf{What we}\newline\textbf{measure} & Share of causes in the top $k$ ($\mathrm{AC}@k$) and of cases with both or any cause there ($\mathrm{Both}@k$, $\mathrm{Any}@k$) on 30 injected concurrent cases (138 in a larger set); how often a post-hoc stage separates them while keeping 200 single-fault cases whole.\\[2pt]
+\textbf{What we}\newline\textbf{prove} & A stage that partitions only the top $k$ of $\pi$ separates at most a $\mathrm{Both}@k$ fraction of cases (Proposition~\ref{prop:bound}).\end{tabular}};
+\end{tikzpicture}

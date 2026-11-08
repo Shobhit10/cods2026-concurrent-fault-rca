@@ -1,0 +1,173 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_delay-mem_pair3_rep1",
+ "namespace": "sock-shop",
+ "svc_a": "carts",
+ "fault_a": "delay",
+ "svc_b": "payment",
+ "fault_b": "mem",
+ "pair": "sockshop_delay-mem_pair3",
+ "rep": 1,
+ "data_md5": "701fa287a385b37157360cbec06ec19c",
+ "n_rows": 58,
+ "n_cols": 16,
+ "detected": true,
+ "anomaly_idx": 31,
+ "ranked_nsigma": [
+  "catalogue_istio_latency",
+  "payment_istio_latency",
+  "carts_istio_latency",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "carts_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "carts_istio_requests",
+  "catalogue_istio_requests",
+  "payment_istio_requests",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "carts_istio_latency",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "payment_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "carts_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "payment_istio_requests",
+  "carts_istio_requests",
+  "catalogue_istio_requests"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.00014578377381561732,
+  "catalogue_memory_usage_bytes": 0.2646849757673667,
+  "catalogue_memory_working_set_bytes": 0.2646849757673667,
+  "catalogue_istio_latency": 0.00041440416996497135,
+  "catalogue_istio_requests": 0.008746972036113633,
+  "carts_cpu_usage_seconds": 0.000154586613301711,
+  "carts_memory_usage_bytes": 0.0001777059773828756,
+  "carts_memory_working_set_bytes": 0.0001777059773828756,
+  "carts_istio_latency": 0.46929899987040335,
+  "carts_istio_requests": 0.002985460420032312,
+  "payment_cpu_usage_seconds": 0.0007533983694384698,
+  "payment_memory_usage_bytes": 1.0,
+  "payment_memory_working_set_bytes": 1.0,
+  "payment_istio_latency": 0.0002100968145815956,
+  "payment_istio_requests": 0.007366720516962885
+ },
+ "rank_a": 3,
+ "rank_b": 1,
+ "n_ranked": 15,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.4": {
+   "separated": true,
+   "grouped_ac1": 1.0
+  },
+  "groups_0.7_0.4": {
+   "0": [
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes"
+   ],
+   "1": [
+    "carts_istio_latency",
+    "catalogue_istio_latency",
+    "payment_istio_latency",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "payment_cpu_usage_seconds",
+    "carts_cpu_usage_seconds",
+    "catalogue_cpu_usage_seconds",
+    "payment_istio_requests",
+    "carts_istio_requests",
+    "catalogue_istio_requests"
+   ],
+   "2": [
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes"
+   ]
+  }
+ }
+}

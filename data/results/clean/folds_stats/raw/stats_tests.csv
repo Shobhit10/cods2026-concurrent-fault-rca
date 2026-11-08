@@ -1,0 +1,12 @@
+test,scope,table,statistic,p_value,note
+"Fisher exact, one-sided (single AC@1 hits vs concurrent top-2 cause-slot hits)",Online Boutique,"[[70,30],[9,21]]",5.444444444444445,0.00010821192549618942,approximate: the 2 slots of a case are not independent
+"Fisher exact, one-sided, case level, concurrent success = at least one cause in top-2 (generous to concurrent)",Online Boutique,"[[70,30],[9,6]]",1.5555555555555556,0.30844219403417017,one row per case; ignores clustering
+"Fisher exact, one-sided (single AC@1 hits vs concurrent top-2 cause-slot hits)",Sock Shop,"[[85,15],[14,16]]",6.476190476190476,5.080148131560122e-05,approximate: the 2 slots of a case are not independent
+"Fisher exact, one-sided, case level, concurrent success = at least one cause in top-2 (generous to concurrent)",Sock Shop,"[[85,15],[11,4]]",2.0606060606060606,0.21521520323207147,one row per case; ignores clustering
+"Fisher exact, one-sided (single AC@1 hits vs concurrent top-2 cause-slot hits)",Both systems,"[[155,45],[23,37]]",5.541062801932367,3.006205868552927e-08,approximate: the 2 slots of a case are not independent
+"Fisher exact, one-sided, case level, concurrent success = at least one cause in top-2 (generous to concurrent)",Both systems,"[[155,45],[20,10]]",1.7222222222222223,0.14330624700897632,one row per case; ignores clustering
+"exact cluster-permutation test, one-sided (all C(23,3) relabelings of 3 of 23 clusters as 'concurrent'); statistic = mean(single) - mean(concurrent)",Online Boutique,20 scenario clusters + 3 pair clusters; 1771 relabelings,0.39999999999999997,0.044042913608131,min attainable p = 1/1771 = 0.00056
+"exact cluster-permutation test, one-sided (all C(23,3) relabelings of 3 of 23 clusters as 'concurrent'); statistic = mean(single) - mean(concurrent)",Sock Shop,20 scenario clusters + 3 pair clusters; 1771 relabelings,0.3833333333333333,0.04630152456239413,min attainable p = 1/1771 = 0.00056
+"exact stratified cluster-permutation test, one-sided (relabel within each system; statistic = pooled mean(single) - pooled mean(concurrent))",Both systems,3136441 relabelings,0.39166666666666666,0.005387316388224743,min attainable p = 1/3136441 = 3.19e-07
+"case-level stratified permutation test, one-sided, Monte Carlo (200000 permutations)",Both systems,200 single + 30 concurrent cases,0.39166666666666666,1.9999900000499998e-05,ignores pair/scenario clustering
+"exact McNemar (separated vs Both@2, paired per case)",Both systems,"separated-not-Both@2=17, Both@2-not-separated=3",14.0,0.0025768280029296875,corrected set; see p_value

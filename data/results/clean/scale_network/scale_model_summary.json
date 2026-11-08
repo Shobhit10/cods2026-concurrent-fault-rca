@@ -1,0 +1,83 @@
+{
+  "measured_at_N0": {
+    "2": {
+      "overall": [
+        0.1,
+        0.0,
+        0.2
+      ],
+      "boutique": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sock-shop": [
+        0.2,
+        0.0,
+        0.4
+      ]
+    },
+    "5": {
+      "overall": [
+        0.7667,
+        0.6333,
+        0.9
+      ],
+      "boutique": [
+        0.5333,
+        0.2667,
+        0.8
+      ],
+      "sock-shop": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pool_sizes": {
+    "quiet": {
+      "boutique": 75,
+      "sock-shop": 45
+    },
+    "quiet12": {
+      "boutique": 75,
+      "sock-shop": 45
+    },
+    "perturbed": {
+      "boutique": 45,
+      "sock-shop": 15
+    }
+  },
+  "p_service_above_worse_mean": {
+    "p_quiet_above_worse": {
+      "boutique": 0.3733,
+      "sock-shop": 0.1704
+    },
+    "p_quiet_above_better": {
+      "boutique": 0.2249,
+      "sock-shop": 0.0874
+    },
+    "p_quiet12_above_worse": {
+      "boutique": 0.2747,
+      "sock-shop": 0.0741
+    },
+    "p_quiet12_above_better": {
+      "boutique": 0.16,
+      "sock-shop": 0.0326
+    },
+    "p_perturbed_above_worse": {
+      "boutique": 0.4415,
+      "sock-shop": 0.2489
+    },
+    "p_perturbed_above_better": {
+      "boutique": 0.2326,
+      "sock-shop": 0.1511
+    }
+  },
+  "worse_cause_score_median": 48.338,
+  "better_cause_score_median": 721.445,
+  "cases_with_a_h_zero": 15,
+  "B": 4000,
+  "seed": 20261025
+}

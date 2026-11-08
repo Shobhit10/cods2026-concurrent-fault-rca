@@ -1,0 +1,223 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_cpu-mem_catalogue_user_rep4",
+ "namespace": "sock-shop",
+ "svc_a": "catalogue",
+ "fault_a": "cpu",
+ "svc_b": "user",
+ "fault_b": "mem",
+ "pair": "sockshop_cpu-mem_catalogue_user",
+ "rep": 4,
+ "data_md5": "2b224e0a271fe4a82ce9e784f92f19bf",
+ "n_rows": 59,
+ "n_cols": 26,
+ "detected": true,
+ "anomaly_idx": 33,
+ "ranked_nsigma": [
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "user_istio_latency",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_cpu_usage_seconds",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "user_istio_requests",
+  "payment_istio_requests",
+  "payment_istio_latency",
+  "catalogue_istio_requests",
+  "user_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_latency",
+  "orders_istio_requests",
+  "carts_cpu_usage_seconds",
+  "orders_cpu_usage_seconds",
+  "orders_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "catalogue_cpu_usage_seconds",
+  "catalogue_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "user_cpu_usage_seconds",
+  "user_istio_latency",
+  "payment_cpu_usage_seconds",
+  "carts_istio_requests",
+  "payment_istio_latency",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_latency",
+  "catalogue_istio_requests",
+  "payment_istio_requests",
+  "user_istio_requests",
+  "orders_istio_requests",
+  "orders_cpu_usage_seconds",
+  "carts_cpu_usage_seconds",
+  "orders_istio_latency"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests",
+  "user_cpu_usage_seconds",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "user_istio_latency",
+  "user_istio_requests",
+  "orders_cpu_usage_seconds",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "orders_istio_latency",
+  "orders_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.0008586270964204728,
+  "catalogue_memory_usage_bytes": 0.00019706661497706274,
+  "catalogue_memory_working_set_bytes": 0.00019706661497706274,
+  "catalogue_istio_latency": 0.0005865999727056726,
+  "catalogue_istio_requests": 0.00022203034414703326,
+  "carts_cpu_usage_seconds": 0.00037217559273410066,
+  "carts_memory_usage_bytes": 0.0003876720294630742,
+  "carts_memory_working_set_bytes": 0.0003876720294630742,
+  "carts_istio_latency": 0.000121700528846658,
+  "carts_istio_requests": 0.0003101376235704582,
+  "payment_cpu_usage_seconds": 0.00051287285771073,
+  "payment_memory_usage_bytes": 0.793952316340376,
+  "payment_memory_working_set_bytes": 0.793952316340376,
+  "payment_istio_latency": 0.00021419575723209789,
+  "payment_istio_requests": 0.0002544097693351424,
+  "user_cpu_usage_seconds": 0.0010645679408927205,
+  "user_memory_usage_bytes": 1.0,
+  "user_memory_working_set_bytes": 1.0,
+  "user_istio_latency": 0.000291247063062225,
+  "user_istio_requests": 0.00023856740274650734,
+  "orders_cpu_usage_seconds": 0.0004863903303202681,
+  "orders_memory_usage_bytes": 0.00124608866613131,
+  "orders_memory_working_set_bytes": 0.00124608866613131,
+  "orders_istio_latency": 0.00015082972373616573,
+  "orders_istio_requests": 0.00012542330364981807
+ },
+ "rank_a": 7,
+ "rank_b": 1,
+ "n_ranked": 25,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.4": {
+   "separated": true,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "0": [
+    "user_memory_usage_bytes",
+    "user_memory_working_set_bytes"
+   ],
+   "1": [
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes"
+   ],
+   "2": [
+    "orders_memory_usage_bytes",
+    "orders_memory_working_set_bytes",
+    "catalogue_cpu_usage_seconds",
+    "catalogue_istio_latency",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "user_cpu_usage_seconds",
+    "user_istio_latency",
+    "payment_cpu_usage_seconds",
+    "carts_istio_requests",
+    "payment_istio_latency",
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes",
+    "carts_istio_latency",
+    "catalogue_istio_requests",
+    "payment_istio_requests",
+    "user_istio_requests",
+    "orders_istio_requests",
+    "orders_cpu_usage_seconds",
+    "carts_cpu_usage_seconds",
+    "orders_istio_latency"
+   ]
+  }
+ }
+}

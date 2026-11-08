@@ -1,0 +1,188 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_delay-mem_pair3_rep3",
+ "namespace": "sock-shop",
+ "svc_a": "carts",
+ "fault_a": "delay",
+ "svc_b": "payment",
+ "fault_b": "mem",
+ "pair": "sockshop_delay-mem_pair3",
+ "rep": 3,
+ "data_md5": "337d96d69d09644547b4a82303515a6e",
+ "n_rows": 58,
+ "n_cols": 19,
+ "detected": true,
+ "anomaly_idx": 31,
+ "ranked_nsigma": [
+  "carts_istio_latency",
+  "carts_istio_latency_src",
+  "payment_istio_latency_src",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "payment_istio_latency",
+  "catalogue_istio_latency",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "catalogue_istio_latency_src",
+  "carts_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "catalogue_istio_requests",
+  "carts_istio_requests",
+  "payment_istio_requests",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "carts_istio_latency_src",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "carts_istio_latency",
+  "payment_istio_latency_src",
+  "catalogue_istio_latency",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "payment_istio_latency",
+  "catalogue_istio_latency_src",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "catalogue_istio_requests",
+  "payment_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "carts_cpu_usage_seconds",
+  "carts_istio_requests",
+  "payment_istio_requests"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "catalogue_istio_latency_src",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "carts_istio_latency_src",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests",
+  "payment_istio_latency_src"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.00016677355343044164,
+  "catalogue_memory_usage_bytes": 0.00013409502337618628,
+  "catalogue_memory_working_set_bytes": 0.00013409502337618628,
+  "catalogue_istio_latency": 0.00014754524274160864,
+  "catalogue_istio_requests": 0.003301291765975594,
+  "catalogue_istio_latency_src": 0.00016269593570482886,
+  "carts_cpu_usage_seconds": 0.00013051756381943428,
+  "carts_memory_usage_bytes": 6.704751168809314e-05,
+  "carts_memory_working_set_bytes": 6.704751168809314e-05,
+  "carts_istio_latency": 0.4175839420143167,
+  "carts_istio_requests": 0.002480757932459461,
+  "carts_istio_latency_src": 1.0,
+  "payment_cpu_usage_seconds": 0.00028207350760787314,
+  "payment_memory_usage_bytes": 0.6916174322332435,
+  "payment_memory_working_set_bytes": 0.6916174322332435,
+  "payment_istio_latency": 0.00011857614868106534,
+  "payment_istio_requests": 0.0032927777962374564,
+  "payment_istio_latency_src": 0.00015326860861701415
+ },
+ "rank_a": 1,
+ "rank_b": 2,
+ "n_ranked": 18,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "noise_1000": [
+    "carts_istio_latency_src"
+   ],
+   "0": [
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes"
+   ],
+   "1": [
+    "carts_istio_latency",
+    "payment_istio_latency_src",
+    "catalogue_istio_latency",
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes",
+    "payment_istio_latency",
+    "catalogue_istio_latency_src",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "catalogue_istio_requests",
+    "payment_cpu_usage_seconds",
+    "catalogue_cpu_usage_seconds",
+    "carts_cpu_usage_seconds",
+    "carts_istio_requests",
+    "payment_istio_requests"
+   ]
+  }
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "kind": "concurrent",
+ "case_id": "boutique_cpu-mem_pair1_rep5",
+ "namespace": "boutique",
+ "svc_a": "adservice",
+ "fault_a": "cpu",
+ "svc_b": "cartservice",
+ "fault_b": "mem",
+ "pair": "boutique_cpu-mem_pair1",
+ "rep": 5,
+ "data_md5": "757cf541af6fca6f8c1702978cddcd45",
+ "n_rows": 60,
+ "n_cols": 21,
+ "detected": true,
+ "anomaly_idx": 25,
+ "ranked_nsigma": [
+  "cartservice_memory_working_set_bytes",
+  "productcatalogservice_memory_working_set_bytes",
+  "adservice_istio_latency",
+  "adservice_cpu_usage_seconds",
+  "checkoutservice_istio_requests",
+  "currencyservice_istio_latency",
+  "cartservice_cpu_usage_seconds",
+  "checkoutservice_istio_latency",
+  "adservice_istio_requests",
+  "productcatalogservice_istio_latency",
+  "cartservice_istio_requests",
+  "checkoutservice_memory_working_set_bytes",
+  "checkoutservice_cpu_usage_seconds",
+  "adservice_memory_working_set_bytes",
+  "currencyservice_istio_requests",
+  "currencyservice_cpu_usage_seconds",
+  "productcatalogservice_cpu_usage_seconds",
+  "productcatalogservice_istio_requests",
+  "cartservice_istio_latency",
+  "currencyservice_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "productcatalogservice_memory_working_set_bytes",
+  "cartservice_memory_working_set_bytes",
+  "checkoutservice_memory_working_set_bytes",
+  "currencyservice_istio_latency",
+  "adservice_cpu_usage_seconds",
+  "adservice_istio_latency",
+  "productcatalogservice_istio_requests",
+  "checkoutservice_istio_latency",
+  "adservice_memory_working_set_bytes",
+  "cartservice_istio_requests",
+  "checkoutservice_istio_requests",
+  "cartservice_cpu_usage_seconds",
+  "currencyservice_istio_requests",
+  "checkoutservice_cpu_usage_seconds",
+  "adservice_istio_requests",
+  "currencyservice_cpu_usage_seconds",
+  "productcatalogservice_cpu_usage_seconds",
+  "currencyservice_memory_working_set_bytes",
+  "cartservice_istio_latency",
+  "productcatalogservice_istio_latency"
+ ],
+ "node_names": [
+  "adservice_cpu_usage_seconds",
+  "adservice_memory_working_set_bytes",
+  "adservice_istio_latency",
+  "adservice_istio_requests",
+  "cartservice_cpu_usage_seconds",
+  "cartservice_memory_working_set_bytes",
+  "cartservice_istio_latency",
+  "cartservice_istio_requests",
+  "checkoutservice_cpu_usage_seconds",
+  "checkoutservice_memory_working_set_bytes",
+  "checkoutservice_istio_latency",
+  "checkoutservice_istio_requests",
+  "currencyservice_cpu_usage_seconds",
+  "currencyservice_memory_working_set_bytes",
+  "currencyservice_istio_latency",
+  "currencyservice_istio_requests",
+  "productcatalogservice_cpu_usage_seconds",
+  "productcatalogservice_memory_working_set_bytes",
+  "productcatalogservice_istio_latency",
+  "productcatalogservice_istio_requests"
+ ],
+ "dev_scores": {
+  "adservice_cpu_usage_seconds": 0.00014435048474474877,
+  "adservice_memory_working_set_bytes": 2.2079901485788115e-05,
+  "adservice_istio_latency": 9.228869083534365e-05,
+  "adservice_istio_requests": 6.781684027777787e-06,
+  "cartservice_cpu_usage_seconds": 1.0178755533236012e-05,
+  "cartservice_memory_working_set_bytes": 0.0017486572265625001,
+  "cartservice_istio_latency": 4.903501196821657e-06,
+  "cartservice_istio_requests": 1.3563368055555538e-05,
+  "checkoutservice_cpu_usage_seconds": 8.6972972213777e-06,
+  "checkoutservice_memory_working_set_bytes": 0.0002475314670138889,
+  "checkoutservice_istio_latency": 2.308258560166508e-05,
+  "checkoutservice_istio_requests": 1.3563368055555538e-05,
+  "currencyservice_cpu_usage_seconds": 6.098155885730883e-06,
+  "currencyservice_memory_working_set_bytes": 3.3908420138888887e-06,
+  "currencyservice_istio_latency": 0.00019071634649062694,
+  "currencyservice_istio_requests": 8.816189236111114e-06,
+  "productcatalogservice_cpu_usage_seconds": 6.0161550601217814e-06,
+  "productcatalogservice_memory_working_set_bytes": 1.0,
+  "productcatalogservice_istio_latency": 5.074729544595621e-07,
+  "productcatalogservice_istio_requests": 2.712673611111109e-05
+ },
+ "rank_a": 5,
+ "rank_b": 2,
+ "n_ranked": 20,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "noise_1000": [
+    "productcatalogservice_memory_working_set_bytes"
+   ],
+   "0": [
+    "cartservice_memory_working_set_bytes",
+    "checkoutservice_memory_working_set_bytes",
+    "currencyservice_istio_latency",
+    "adservice_cpu_usage_seconds",
+    "adservice_istio_latency",
+    "productcatalogservice_istio_requests",
+    "checkoutservice_istio_latency",
+    "adservice_memory_working_set_bytes",
+    "cartservice_istio_requests",
+    "checkoutservice_istio_requests",
+    "cartservice_cpu_usage_seconds",
+    "currencyservice_istio_requests",
+    "checkoutservice_cpu_usage_seconds",
+    "adservice_istio_requests",
+    "currencyservice_cpu_usage_seconds",
+    "productcatalogservice_cpu_usage_seconds",
+    "currencyservice_memory_working_set_bytes",
+    "cartservice_istio_latency",
+    "productcatalogservice_istio_latency"
+   ]
+  }
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_cpu-mem_user_payment_rep4",
+ "namespace": "sock-shop",
+ "svc_a": "user",
+ "fault_a": "cpu",
+ "svc_b": "payment",
+ "fault_b": "mem",
+ "pair": "sockshop_cpu-mem_user_payment",
+ "rep": 4,
+ "data_md5": "13678e10da14bcfb758192bfa1c44145",
+ "n_rows": 59,
+ "n_cols": 26,
+ "detected": true,
+ "anomaly_idx": 31,
+ "ranked_nsigma": [
+  "user_istio_latency",
+  "orders_istio_latency",
+  "payment_istio_latency",
+  "user_cpu_usage_seconds",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "carts_istio_latency",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "carts_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "orders_cpu_usage_seconds",
+  "payment_cpu_usage_seconds",
+  "payment_istio_requests",
+  "orders_istio_requests",
+  "catalogue_istio_requests",
+  "user_istio_requests",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_requests",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "orders_istio_latency",
+  "user_istio_latency",
+  "user_cpu_usage_seconds",
+  "payment_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "payment_istio_latency",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "carts_istio_latency",
+  "catalogue_istio_latency",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "orders_cpu_usage_seconds",
+  "carts_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "orders_istio_requests",
+  "payment_istio_requests",
+  "catalogue_istio_requests",
+  "user_istio_requests",
+  "carts_istio_requests"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests",
+  "user_cpu_usage_seconds",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "user_istio_latency",
+  "user_istio_requests",
+  "orders_cpu_usage_seconds",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "orders_istio_latency",
+  "orders_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.00023403733057854504,
+  "catalogue_memory_usage_bytes": 0.00017164435290078955,
+  "catalogue_memory_working_set_bytes": 0.00017164435290078955,
+  "catalogue_istio_latency": 8.661036371892283e-05,
+  "catalogue_istio_requests": 0.001271240988671449,
+  "carts_cpu_usage_seconds": 0.0002787382721732936,
+  "carts_memory_usage_bytes": 6.436663233779608e-05,
+  "carts_memory_working_set_bytes": 6.436663233779608e-05,
+  "carts_istio_latency": 9.318807146783728e-05,
+  "carts_istio_requests": 0.003153964984551948,
+  "payment_cpu_usage_seconds": 0.0005112814165222959,
+  "payment_memory_usage_bytes": 1.0,
+  "payment_memory_working_set_bytes": 1.0,
+  "payment_istio_latency": 0.0001504320450512354,
+  "payment_istio_requests": 0.00045976165955568745,
+  "user_cpu_usage_seconds": 0.0010452461662318268,
+  "user_memory_usage_bytes": 7.163383276303112e-05,
+  "user_memory_working_set_bytes": 7.163383276303112e-05,
+  "user_istio_latency": 0.019872126305096324,
+  "user_istio_requests": 0.0006641466154854387,
+  "orders_cpu_usage_seconds": 0.0001750649288611429,
+  "orders_memory_usage_bytes": 0.0001379284978667059,
+  "orders_memory_working_set_bytes": 0.0001379284978667059,
+  "orders_istio_latency": 0.02144521422872021,
+  "orders_istio_requests": 0.0002633180413818929
+ },
+ "rank_a": 4,
+ "rank_b": 1,
+ "n_ranked": 25,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.4": {
+   "separated": true,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "0": [
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes"
+   ],
+   "1": [
+    "orders_istio_latency",
+    "user_istio_latency",
+    "user_cpu_usage_seconds",
+    "payment_cpu_usage_seconds",
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes",
+    "payment_istio_latency",
+    "orders_memory_usage_bytes",
+    "orders_memory_working_set_bytes",
+    "carts_istio_latency",
+    "catalogue_istio_latency",
+    "user_memory_usage_bytes",
+    "user_memory_working_set_bytes",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "orders_cpu_usage_seconds",
+    "carts_cpu_usage_seconds",
+    "catalogue_cpu_usage_seconds",
+    "orders_istio_requests",
+    "payment_istio_requests",
+    "catalogue_istio_requests",
+    "user_istio_requests",
+    "carts_istio_requests"
+   ]
+  }
+ }
+}

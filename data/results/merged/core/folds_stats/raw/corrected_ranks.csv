@@ -1,0 +1,4 @@
+scope,n,median_rank_better,median_rank_second,k_second_outside_top5,share_second_outside_top5,k_cpu_top5,share_cpu_top5,k_mem_top5,share_mem_top5,median_rank_cpu,median_rank_mem,ranked_list_len_min,ranked_list_len_max
+overall,30,1.0,3.0,3,0.1,27,0.9,30,1.0,2.0,1.0,9,20
+Online Boutique,15,1.0,4.0,3,0.2,12,0.8,15,1.0,4.0,1.0,9,20
+Sock Shop,15,1.0,2.0,0,0.0,15,1.0,15,1.0,2.0,1.0,12,12

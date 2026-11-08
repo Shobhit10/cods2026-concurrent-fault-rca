@@ -1,0 +1,13 @@
+\setbox2=\hbox{%
+\begin{tikzpicture}
+\begin{axis}[barbase, bar width=15pt, ymin=0, ymax=1, ytick={0,.25,.5,.75,1},
+  symbolic x coords={Online Boutique, Sock Shop}, xtick=data, enlarge x limits=.5,
+  ylabel={accuracy}, height=4.2cm,
+  legend style={at={(.5,1.02)}, anchor=south, legend columns=2, font=\footnotesize, draw=none, fill=none}]
+\addplot[draw=slate, fill=slate!40] coordinates {(Online Boutique,0.70) (Sock Shop,0.85)};
+\addplot[draw=bad, fill=bad!45] coordinates {(Online Boutique,0.300) (Sock Shop,0.467)};
+\legend{single-fault $\mathrm{AC}@1$, concurrent $\mathrm{AC}@2$}
+\end{axis}
+\end{tikzpicture}}%
+\typeout{NATDIM wd=\the\wd2; ht=\the\ht2; dp=\the\dp2;}%
+\vbox to 108.93184pt{\vss\box2\vss}%

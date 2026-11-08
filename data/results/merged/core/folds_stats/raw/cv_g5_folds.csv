@@ -1,0 +1,6 @@
+fold,held_out,alpha,eps,train_combined,n_conc_test,k_separated,separation,grouped_ac1_sum,grouped_ac1,n_sf_test,k_single_kept,single_kept,k_hit,hit_rate,k_both2,both2,k_both5,both5,k_both_in_stage_input,prop21_holds_input,sep_le_both2_count,sep_subset_both2,sep_subset_both5,separated_cases
+1,sockshop:pair1+sockshop:pair3,0.7,0.4,0.484375,10,1,0.1,4.0,0.4,40,35,0.875,26,0.65,6,0.6,10,1.0,10,True,True,False,True,sockshop_cpu-mem_pair3_rep5
+2,boutique:pair2,0.7,0.4,0.49,5,0,0.0,2.0,0.4,40,38,0.95,32,0.8,1,0.2,5,1.0,5,True,True,True,True,
+3,boutique:pair3,0.7,0.4,0.47625,5,1,0.2,0.5,0.1,40,36,0.9,29,0.725,1,0.2,3,0.6,5,True,True,False,True,boutique_cpu-mem_pair3_rep3
+4,sockshop:pair2,0.7,0.4,0.486875,5,0,0.0,2.5,0.5,40,39,0.975,29,0.725,5,1.0,5,1.0,5,True,True,True,True,
+5,boutique:pair1,0.7,0.4,0.5025000000000001,5,0,0.0,1.5,0.3,40,34,0.85,32,0.8,1,0.2,4,0.8,5,True,True,True,True,

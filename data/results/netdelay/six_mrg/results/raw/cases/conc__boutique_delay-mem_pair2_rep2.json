@@ -1,0 +1,17 @@
+{
+ "kind": "concurrent",
+ "case_id": "boutique_delay-mem_pair2_rep2",
+ "namespace": "boutique",
+ "svc_a": "currencyservice",
+ "fault_a": "delay",
+ "svc_b": "cartservice",
+ "fault_b": "mem",
+ "pair": "boutique_delay-mem_pair2",
+ "rep": 2,
+ "data_md5": "2adbf8bf469571a101a920aa6f558892",
+ "n_rows": 59,
+ "n_cols": 26,
+ "detected": true,
+ "anomaly_idx": 59,
+ "status": "scoring_failed: Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by RobustScaler."
+}

@@ -1,0 +1,6 @@
+fold,alpha,eps,concurrent_separation,concurrent_grouped_ac1,single_fault_single_group,single_fault_hit_rate,n_concurrent_test,n_single_fault_test
+1,0.7,0.4,0.0,0.25,0.95,0.825,6,40
+2,0.7,0.4,0.0,0.08333333333333333,0.925,0.675,6,40
+3,0.7,0.4,0.16666666666666666,0.25,0.925,0.725,6,40
+4,0.7,0.4,0.2,0.4,0.875,0.75,5,40
+5,0.7,0.4,0.0,0.4,0.875,0.725,5,40

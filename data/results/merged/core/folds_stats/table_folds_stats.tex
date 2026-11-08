@@ -1,0 +1,35 @@
+% src: analysis/camera_ready/folds_stats/ -- stats_ci.py, stats_extra.py, grouped_cv.py, make_tables.py;
+% data raw/stats_ci.csv, raw/stats_extra.csv, raw/stats_tests.csv, raw/cv_lopo_folds.csv, raw/cv_summary.csv.
+% POST HOC (camera-ready) analysis; no published number changes. Exact = Clopper-Pearson for binary counts;
+% for AC@2 k/n counts cause slots (2 per case) and the interval is Wilson on slots (approximate); drop = Newcombe
+% (Wilson) on slots. Clustered bootstrap: pairs (concurrent) / (service, fault) scenarios (single-fault), resampled
+% within system, B=20000, percentile; only 3 pairs per system, so it is coarse. Separation/kept/hit are pooled held-out
+% outcomes of leave-one-pair-out CV (alpha=0.7, eps=0.4 chosen in 6/6 folds; identical pooled counts in the published
+% 5-fold design). Exact test = stratified cluster-permutation test over all within-system relabelings (one-sided).
+\begin{table}[t]
+\centering\small
+\caption{Uncertainty of the main results (post hoc). For $\mathrm{AC}@2$, $k/n$ counts cause slots (two per case).
+95\% intervals: exact (Clopper--Pearson) or Wilson, and a bootstrap that resamples whole service pairs or fault
+scenarios. LOPO = leave-one-pair-out cross-validation.}
+\label{tab:uncertainty}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Quantity} & $k/n$ & \textbf{Est.} & \textbf{Exact/Wilson} & \textbf{Clust.\ boot.}\\
+\midrule
+Single $\mathrm{AC}@1$, Boutique & 70/100 & 0.70 & 0.60--0.79 & 0.55--0.84\\
+Single $\mathrm{AC}@1$, Sock Shop & 85/100 & 0.85 & 0.76--0.91 & 0.73--0.95\\
+Conc.\ $\mathrm{AC}@2$, Boutique & 17/30 & 0.567 & 0.39--0.73 & 0.50--0.60\\
+Conc.\ $\mathrm{AC}@2$, Sock Shop & 26/30 & 0.867 & 0.70--0.95 & 0.70--1.00\\
+Conc.\ $\mathrm{AC}@2$, overall & 43/60 & 0.717 & 0.59--0.81 & 0.63--0.78\\
+Drop, single $-$ conc. & --- & 0.06 & -0.06--0.19 & -0.06--0.17\\
+\multicolumn{5}{@{}l}{\quad exact tests: cluster perm.\ $p=3.3{\times}10^{-1}$; Fisher $p=1.0{\times}10^{0}$}\\
+\midrule
+$\mathrm{Both}@2$ & 14/30 & 0.467 & 0.28--0.66 & 0.30--0.60\\
+$\mathrm{Both}@5$ & 27/30 & 0.900 & 0.73--0.98 & 0.80--1.00\\
+Separation, LOPO & 2/30 & 0.067 & 0.01--0.22 & 0.00--0.13\\
+Single kept, LOPO & 182/200 & 0.91 & 0.86--0.95 & 0.84--0.96\\
+Hit rate, LOPO & 148/200 & 0.74 & 0.67--0.80 & 0.64--0.83\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,84 @@
+quantity,scope,k,n,estimate,method,lo,hi,note
+single-fault AC@1,Online Boutique,70,100,0.7,Clopper-Pearson exact 95% (two-sided),0.6001853238201958,0.7875935795104634,binary per case; 100 cases per system
+single-fault AC@1,Online Boutique,70,100,0.7,Wilson 95%,0.6041514536665332,0.7810511470506724,binary per case; 100 cases per system
+single-fault AC@1,Online Boutique,70,100,0.7,Clopper-Pearson one-sided 95% upper bound,0.0,0.7750767756286134,binary per case; 100 cases per system
+single-fault AC@1,Online Boutique,70,100,0.7,"scenario-clustered bootstrap 95% (percentile, B=20000)",0.55,0.84,"clusters = (service, fault type) scenarios, 20 per system x 5 reps, resampled within system"
+single-fault AC@1,Sock Shop,85,100,0.85,Clopper-Pearson exact 95% (two-sided),0.7646924998510451,0.9135456143583514,binary per case; 100 cases per system
+single-fault AC@1,Sock Shop,85,100,0.85,Wilson 95%,0.7671644040916763,0.9069401471634337,binary per case; 100 cases per system
+single-fault AC@1,Sock Shop,85,100,0.85,Clopper-Pearson one-sided 95% upper bound,0.0,0.9052059883253526,binary per case; 100 cases per system
+single-fault AC@1,Sock Shop,85,100,0.85,"scenario-clustered bootstrap 95% (percentile, B=20000)",0.73,0.95,"clusters = (service, fault type) scenarios, 20 per system x 5 reps, resampled within system"
+single-fault AC@1,Both systems,155,200,0.775,Clopper-Pearson exact 95% (two-sided),0.7107603940312353,0.8308974528701732,binary per case; 100 cases per system
+single-fault AC@1,Both systems,155,200,0.775,Wilson 95%,0.7122587676433947,0.8273763028491088,binary per case; 100 cases per system
+single-fault AC@1,Both systems,155,200,0.775,Clopper-Pearson one-sided 95% upper bound,0.0,0.8227628057161341,binary per case; 100 cases per system
+single-fault AC@1,Both systems,155,200,0.775,"scenario-clustered bootstrap 95% (percentile, B=20000)",0.675,0.865,"clusters = (service, fault type) scenarios, 20 per system x 5 reps, resampled within system"
+concurrent AC@2,Online Boutique,17,30,0.5666666666666667,Clopper-Pearson 95% on cause slots (approximate),0.3742734506092208,0.7453924500967369,treats the 2 cause slots per case as independent; ignores within-case and within-pair dependence
+concurrent AC@2,Online Boutique,17,30,0.5666666666666667,Wilson 95% on cause slots (approximate),0.3919730700081361,0.7262251442353347,same caveat as above
+concurrent AC@2,Online Boutique,17,30,0.5666666666666667,"case bootstrap 95% (percentile, B=20000)",0.43333333333333335,0.7,resamples cases within system; ignores pair clustering
+concurrent AC@2,Online Boutique,17,30,0.5666666666666667,"pair-clustered bootstrap 95% (percentile, B=20000)",0.5,0.6,"clusters = service pairs (3 per system), resampled within system; few clusters -> coarse, may under-cover"
+concurrent AC@2,Sock Shop,26,30,0.8666666666666667,Clopper-Pearson 95% on cause slots (approximate),0.6927816497238732,0.9624465036616366,treats the 2 cause slots per case as independent; ignores within-case and within-pair dependence
+concurrent AC@2,Sock Shop,26,30,0.8666666666666667,Wilson 95% on cause slots (approximate),0.703186733179637,0.9469034451594526,same caveat as above
+concurrent AC@2,Sock Shop,26,30,0.8666666666666667,"case bootstrap 95% (percentile, B=20000)",0.7333333333333333,0.9666666666666667,resamples cases within system; ignores pair clustering
+concurrent AC@2,Sock Shop,26,30,0.8666666666666667,"pair-clustered bootstrap 95% (percentile, B=20000)",0.7,1.0,"clusters = service pairs (3 per system), resampled within system; few clusters -> coarse, may under-cover"
+concurrent AC@2,Both systems,43,60,0.7166666666666667,Clopper-Pearson 95% on cause slots (approximate),0.58556393105017,0.8254947164856248,treats the 2 cause slots per case as independent; ignores within-case and within-pair dependence
+concurrent AC@2,Both systems,43,60,0.7166666666666667,Wilson 95% on cause slots (approximate),0.5923271483560882,0.8149317157156729,same caveat as above
+concurrent AC@2,Both systems,43,60,0.7166666666666667,"case bootstrap 95% (percentile, B=20000)",0.6333333333333333,0.8,resamples cases within system; ignores pair clustering
+concurrent AC@2,Both systems,43,60,0.7166666666666667,"pair-clustered bootstrap 95% (percentile, B=20000)",0.6333333333333333,0.7833333333333333,"clusters = service pairs (3 per system), resampled within system; few clusters -> coarse, may under-cover"
+concurrent AC@2,Both systems,43,60,0.7166666666666667,"t-interval on 6 pair means (df=5), 95%",0.5129932243314095,0.9203401090019239,estimate here is the unweighted mean of pair means
+drop: single AC@1 minus concurrent AC@2,Online Boutique,,,0.1333333333333333,"cluster bootstrap 95% (scenarios / pairs, within system)",-0.030000000000000027,0.2833333333333333,bootstrap P(diff<=0) = 0.05665
+drop: single AC@1 minus concurrent AC@2,Sock Shop,,,-0.01666666666666672,"cluster bootstrap 95% (scenarios / pairs, within system)",-0.19666666666666666,0.16333333333333333,bootstrap P(diff<=0) = 0.57750
+drop: single AC@1 minus concurrent AC@2,Both systems,,,0.05833333333333335,"cluster bootstrap 95% (scenarios / pairs, within system)",-0.06333333333333324,0.17500000000000004,bootstrap P(diff<=0) = 0.17465
+Both@2,Online Boutique,3,15,0.2,Clopper-Pearson exact 95% (two-sided),0.04331200510583662,0.480891133806853,
+Both@2,Online Boutique,3,15,0.2,Wilson 95%,0.07047549346981563,0.45185448715169363,
+Both@2,Online Boutique,3,15,0.2,Clopper-Pearson one-sided 95% upper bound,0.0,0.43978443598155614,
+Both@2,Sock Shop,11,15,0.7333333333333333,Clopper-Pearson exact 95% (two-sided),0.44899675896302954,0.9221284537089564,
+Both@2,Sock Shop,11,15,0.7333333333333333,Wilson 95%,0.4804956594401943,0.8910254667430761,
+Both@2,Sock Shop,11,15,0.7333333333333333,Clopper-Pearson one-sided 95% upper bound,0.0,0.9033416660080431,
+Both@2,Both systems,14,30,0.4666666666666667,Clopper-Pearson exact 95% (two-sided),0.28341807918353706,0.6567447618392659,
+Both@2,Both systems,14,30,0.4666666666666667,Wilson 95%,0.30232388907699753,0.638577003801267,
+Both@2,Both systems,14,30,0.4666666666666667,Clopper-Pearson one-sided 95% upper bound,0.0,0.6300524448838064,
+Both@2,Both systems,14,30,0.4666666666666667,"pair-clustered bootstrap 95% (percentile, B=20000)",0.3,0.6,3 pairs per system; coarse
+Both@3,Online Boutique,7,15,0.4666666666666667,Clopper-Pearson exact 95% (two-sided),0.21266672951930793,0.7341386527226033,
+Both@3,Online Boutique,7,15,0.4666666666666667,Wilson 95%,0.24809535365737387,0.698830199745016,
+Both@3,Online Boutique,7,15,0.4666666666666667,Clopper-Pearson one-sided 95% upper bound,0.0,0.7000135258622296,
+Both@3,Sock Shop,14,15,0.9333333333333333,Clopper-Pearson exact 95% (two-sided),0.6805154334216966,0.9983135697586473,
+Both@3,Sock Shop,14,15,0.9333333333333333,Wilson 95%,0.7018347012621998,0.9881331045067315,
+Both@3,Sock Shop,14,15,0.9333333333333333,Clopper-Pearson one-sided 95% upper bound,0.0,0.9965862870534097,
+Both@3,Both systems,21,30,0.7,Clopper-Pearson exact 95% (two-sided),0.5060409585374464,0.8526548152452988,
+Both@3,Both systems,21,30,0.7,Wilson 95%,0.5212421254128504,0.8333525173175619,
+Both@3,Both systems,21,30,0.7,Clopper-Pearson one-sided 95% upper bound,0.0,0.8336740443867883,
+Both@3,Both systems,21,30,0.7,"pair-clustered bootstrap 95% (percentile, B=20000)",0.6333333333333333,0.7666666666666667,3 pairs per system; coarse
+Both@5,Online Boutique,12,15,0.8,Clopper-Pearson exact 95% (two-sided),0.519108866193147,0.9566879948941633,
+Both@5,Online Boutique,12,15,0.8,Wilson 95%,0.5481455128483065,0.9295245065301844,
+Both@5,Online Boutique,12,15,0.8,Clopper-Pearson one-sided 95% upper bound,0.0,0.9431531324097532,
+Both@5,Sock Shop,15,15,1.0,Clopper-Pearson exact 95% (two-sided),0.781980639089466,1.0,
+Both@5,Sock Shop,15,15,1.0,Wilson 95%,0.7961166989641515,1.0,
+Both@5,Sock Shop,15,15,1.0,Clopper-Pearson one-sided 95% upper bound,0.0,1.0,
+Both@5,Both systems,27,30,0.9,Clopper-Pearson exact 95% (two-sided),0.7347115495257919,0.9788828629702774,
+Both@5,Both systems,27,30,0.9,Wilson 95%,0.7437891742081593,0.9654001112526658,
+Both@5,Both systems,27,30,0.9,Clopper-Pearson one-sided 95% upper bound,0.0,0.9721844502602504,
+Both@5,Both systems,27,30,0.9,"pair-clustered bootstrap 95% (percentile, B=20000)",0.8,1.0,3 pairs per system; coarse
+Any@5,Online Boutique,15,15,1.0,Clopper-Pearson exact 95% (two-sided),0.781980639089466,1.0,
+Any@5,Online Boutique,15,15,1.0,Wilson 95%,0.7961166989641515,1.0,
+Any@5,Online Boutique,15,15,1.0,Clopper-Pearson one-sided 95% upper bound,0.0,1.0,
+Any@5,Sock Shop,15,15,1.0,Clopper-Pearson exact 95% (two-sided),0.781980639089466,1.0,
+Any@5,Sock Shop,15,15,1.0,Wilson 95%,0.7961166989641515,1.0,
+Any@5,Sock Shop,15,15,1.0,Clopper-Pearson one-sided 95% upper bound,0.0,1.0,
+Any@5,Both systems,30,30,1.0,Clopper-Pearson exact 95% (two-sided),0.8842966917779722,1.0,
+Any@5,Both systems,30,30,1.0,Wilson 95%,0.8864866068260312,0.9999999999999999,
+Any@5,Both systems,30,30,1.0,Clopper-Pearson one-sided 95% upper bound,0.0,1.0,
+Any@5,Both systems,30,30,1.0,"pair-clustered bootstrap 95% (percentile, B=20000)",1.0,1.0,3 pairs per system; coarse
+N-Sigma Both@2,Both systems,3,30,0.1,Clopper-Pearson exact 95% (two-sided),0.02111713702972258,0.26528845047420807,
+N-Sigma Both@2,Both systems,3,30,0.1,Wilson 95%,0.03459988874733419,0.25621082579184085,
+N-Sigma Both@2,Both systems,3,30,0.1,Clopper-Pearson one-sided 95% upper bound,0.0,0.23859785729325095,
+N-Sigma Both@5,Both systems,19,30,0.6333333333333333,Clopper-Pearson exact 95% (two-sided),0.43855984901195755,0.8007013749879656,
+N-Sigma Both@5,Both systems,19,30,0.6333333333333333,Wilson 95%,0.4551356365479487,0.7812607919389929,
+N-Sigma Both@5,Both systems,19,30,0.6333333333333333,Clopper-Pearson one-sided 95% upper bound,0.0,0.7789405501539864,
+N-Sigma Any@5,Both systems,29,30,0.9666666666666667,Clopper-Pearson exact 95% (two-sided),0.8278305443665873,0.9991564290733695,
+N-Sigma Any@5,Both systems,29,30,0.9666666666666667,Wilson 95%,0.8332960900859082,0.9940914096183874,
+N-Sigma Any@5,Both systems,29,30,0.9666666666666667,Clopper-Pearson one-sided 95% upper bound,0.0,0.9982916843555343,
+"separation (published 5-fold design; alpha=0.7, eps=0.4 in every fold; pooled held-out)",Both systems,2,30,0.06666666666666667,Clopper-Pearson exact 95% (two-sided),0.008178134460656305,0.22073540152296187,corrected set; pooled = k/30 (fold means: raw/cv_summary.csv)
+"separation (published 5-fold design; alpha=0.7, eps=0.4 in every fold; pooled held-out)",Both systems,2,30,0.06666666666666667,Wilson 95%,0.018477023791270378,0.2132345836261692,corrected set; pooled = k/30 (fold means: raw/cv_summary.csv)
+"separation (published 5-fold design; alpha=0.7, eps=0.4 in every fold; pooled held-out)",Both systems,2,30,0.06666666666666667,Clopper-Pearson one-sided 95% upper bound,0.0,0.19532604365492595,corrected set; pooled = k/30 (fold means: raw/cv_summary.csv)
+separation (post hoc leave-one-pair-out; pooled held-out),Both systems,2,30,0.06666666666666667,Clopper-Pearson exact 95% (two-sided),0.008178134460656305,0.22073540152296187,
+separation (post hoc leave-one-pair-out; pooled held-out),Both systems,2,30,0.06666666666666667,Wilson 95%,0.018477023791270378,0.2132345836261692,
+separation (post hoc leave-one-pair-out; pooled held-out),Both systems,2,30,0.06666666666666667,Clopper-Pearson one-sided 95% upper bound,0.0,0.19532604365492595,

@@ -1,0 +1,90 @@
+\begin{tikzpicture}[
+  font=\footnotesize\sffamily, line cap=round,
+  stage/.style={card, font=\footnotesize\sffamily, inner sep=2pt,
+    minimum width=0pt, minimum height=1.3cm, text width=#1, align=center},
+  sepst/.style={ourcard, font=\footnotesize\sffamily, inner sep=2pt,
+    minimum width=0pt, minimum height=1.32cm, text width=#1, align=center},
+  svc/.style={circle, draw=slate!85, fill=white, minimum size=4.8mm,
+    inner sep=0pt, font=\footnotesize\sffamily},
+  fsvc/.style={svc, draw=ink, line width=.8pt, fill=amber!45},
+  isvc/.style={svc, draw=ink!80, dashed, line width=.6pt, fill=slate!20},
+  call/.style={-{Stealth[length=1.5mm]}, slate!85, line width=.5pt},
+  fstar/.style={star, star points=5, star point ratio=2.3, fill=amber,
+    draw=ink, line width=.35pt, minimum size=3mm, inner sep=0pt},
+  lrow/.style={draw=slate!55, fill=white, rounded corners=1pt,
+    minimum height=.4cm, inner sep=1.5pt, text width=1.85cm,
+    align=left, anchor=north west},
+  crow/.style={lrow, draw=ink, line width=.7pt, fill=amber!30},
+  irow/.style={lrow, draw=ink!80, dashed, fill=slate!20},
+  grp/.style={draw=brand, line width=.7pt, fill=brand!10, rounded corners=3pt,
+    text width=1.1cm, align=center, inner sep=1.5pt, minimum height=.6cm},
+  ghost/.style={grp, draw=slate!80, dashed, fill=white},
+]
+% ---------------- row 1: app on Kubernetes -> Prometheus -> Stage 1 --------
+\node[draw=slate!55, rounded corners=4pt, fill=slate!5, minimum width=3.9cm,
+  minimum height=2.2cm, anchor=north west, inner sep=0pt] (tb) at (0,0) {};
+\node[anchor=north west, font=\footnotesize\sffamily\bfseries, text=ink, inner sep=0pt]
+  at (0.1,-0.1) {App on Kubernetes};
+\node[svc]  (fe) at (0.40,-1.30) {fe};
+\node[fsvc] (a)  at (1.15,-0.80) {A};
+\node[svc]  (o)  at (1.15,-1.30) {o};
+\node[fsvc] (b)  at (1.90,-1.30) {B};
+\node[isvc] (p)  at (1.90,-1.86) {p};
+\draw[call] (fe) -- (a);  \draw[call] (fe) -- (o);
+\draw[call] (o)  -- (b);  \draw[call] (o)  -- (p);
+\node[fstar] at ($(a.north east)+(0.03,0.03)$) {};
+\node[fstar] at ($(b.north east)+(0.03,0.03)$) {};
+\node[anchor=west, text=ink] at ($(a.east)+(0.2,0)$) {CPU fault};
+\node[anchor=west, text=ink] at ($(b.east)+(0.2,0)$) {memory fault};
+\node[anchor=west, text=ink] at ($(p.east)+(0.08,0)$) {non-cause};
+\node[anchor=south west, text=ink, inner sep=0pt] at (0.1,-2.12) {$F=\{\mathsf{A},\mathsf{B}\}$};
+% metrics and Stage 1
+\node[stage=1.68cm, anchor=west] (prom) at (4.2,-1.1)
+  {\textbf{Prometheus}\\5 series per\\candidate service,\\$-90$ to $+180$\,s};
+\node[stage=1.62cm, anchor=west] (s1) at (6.48,-1.1)
+  {\textbf{Stage 1}\\change-point\\detection, one\\$\tau$ per case};
+\draw[flow] (tb.east|-prom.west) -- (prom.west);
+\draw[flow] (prom) -- (s1);
+% ---------------- row 2: Stage 2 -> one ranked list -> top k -> groups -----
+\node[stage=1.7cm, anchor=north west, minimum height=1.05cm] (s2) at (0,-2.78)
+  {\textbf{Stage 2}\\robust deviation\\scoring};
+\draw[flow, rounded corners=3pt] (s1.south) -- ++(0,-0.68) -| (s2.north);
+\node[anchor=north west, font=\footnotesize\sffamily\bfseries, text=ink, inner sep=0pt]
+  (lh) at (2.12,-2.71) {one flat ranked list $\pi$};
+\node[irow] (r1) at (2.12,-3.04) {1\ \ p\hfill non-cause};
+\node[crow] (r2) at ($(r1.south west)+(0,-0.06)$) {2\ \ A\hfill cause\kern2pt};
+\node[lrow] (r3) at ($(r2.south west)+(0,-0.06)$) {3\ \ \textcolor{slate}{other}};
+\node[lrow, draw=none, fill=none, minimum height=.32cm, text=slate] (rd)
+  at ($(r3.south west)+(0,-0.26)$) {\ \ \ \ $\vdots$};
+\node[crow] (rb) at ($(rd.south west)+(0,-0.02)$) {\ \ \ \ B\hfill cause\kern2pt};
+\node[fstar] at ($(r2.east)+(0.07,0)$) {};
+\node[fstar] at ($(rb.east)+(0.07,0)$) {};
+\draw[flow] (s2.east) -- (s2.east-|r1.west);
+% the cut after rank k
+\coordinate (cutY) at ($(r3.south west)+(0,-0.13)$);
+\draw[ink, line width=1.1pt, dash pattern=on 2.4pt off 1.4pt]
+  ($(cutY)+(-0.1,0)$) -- ($(cutY)+(2.12,0)$) coordinate (cutR);
+\node[anchor=east, text=ink, inner sep=1pt] at ($(cutY)+(-0.14,0)$) {cut after rank $k$};
+% top-k bracket feeding the clustering stage
+\draw[brand, line width=.8pt] ($(r1.north east)+(0.23,0)$) -- ++(0.08,0)
+  -- ($(r3.south east)+(0.31,0)$) -- ++(-0.08,0);
+\node[sepst=1.4cm, anchor=west] (gdc) at ($(r2.east)+(1.08,0)$)
+  {\textbf{post-hoc}\\\textbf{stage}\\reads top $k$\\and graph $G$};
+\draw[ourflow] ($(r2.east)+(0.31,0)$) -- (gdc.west)
+  node[midway, above, text=brand, font=\footnotesize\sffamily\bfseries, inner sep=1.5pt] {top $k$};
+\node[grp, anchor=north west] (g1) at ($(gdc.north east)+(0.3,0)$) {group 1\\p, A};
+\node[ghost, anchor=south west] (g2) at ($(gdc.south east)+(0.3,0.1)$) {group 2\\needs B};
+\draw[ourflow] (gdc.east) -- (g1.west);
+\draw[flow, dashed] (gdc.east) -- (g2.west);
+% where the bound applies
+\node[draw=ink, line width=.6pt, fill=white, rounded corners=3pt, anchor=north west,
+  text width=3.72cm, align=left, inner sep=2.5pt] (bnd) at ($(cutR)+(0.25,0.1)$)
+  {\textbf{The bound applies here (Prop.~\ref{prop:bound}).} Both causes must
+   be above the cut, so \mbox{$\mathrm{Sep}@k\le\mathrm{Both}@k$}.};
+\draw[-{Stealth[length=1.8mm]}, ink, line width=.6pt, rounded corners=2pt]
+  (bnd.west|-cutR) -- ($(cutR)+(0.02,0)$);
+% legend in the free corner
+\node[anchor=north west, align=left, text=ink, inner sep=0pt] at (0,-4.95)
+  {\tikz[baseline=-.6ex]\draw[ink!80, line width=.6pt, dashed] (0,0) -- (.3,0);\ non-cause anomaly\\
+   \tikz[baseline=-.6ex]\node[fstar]{};\ injected fault};
+\end{tikzpicture}

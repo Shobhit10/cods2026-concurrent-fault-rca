@@ -1,0 +1,225 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_cpu-mem_payment_catalogue_rep5",
+ "namespace": "sock-shop",
+ "svc_a": "payment",
+ "fault_a": "cpu",
+ "svc_b": "catalogue",
+ "fault_b": "mem",
+ "pair": "sockshop_cpu-mem_payment_catalogue",
+ "rep": 5,
+ "data_md5": "95ab1d053bd72741f4af2d283289c789",
+ "n_rows": 59,
+ "n_cols": 26,
+ "detected": true,
+ "anomaly_idx": 35,
+ "ranked_nsigma": [
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "carts_istio_latency",
+  "payment_istio_latency",
+  "orders_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "user_istio_latency",
+  "payment_istio_requests",
+  "carts_istio_requests",
+  "catalogue_istio_requests",
+  "user_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "orders_istio_requests",
+  "carts_cpu_usage_seconds",
+  "orders_cpu_usage_seconds",
+  "user_istio_requests",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "payment_istio_latency",
+  "orders_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "catalogue_cpu_usage_seconds",
+  "payment_cpu_usage_seconds",
+  "catalogue_istio_latency",
+  "user_istio_latency",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "user_cpu_usage_seconds",
+  "carts_istio_requests",
+  "payment_istio_requests",
+  "carts_cpu_usage_seconds",
+  "orders_cpu_usage_seconds",
+  "catalogue_istio_requests",
+  "orders_istio_requests",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "user_istio_requests"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests",
+  "user_cpu_usage_seconds",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "user_istio_latency",
+  "user_istio_requests",
+  "orders_cpu_usage_seconds",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "orders_istio_latency",
+  "orders_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.055557896984057324,
+  "catalogue_memory_usage_bytes": 0.030299113917853823,
+  "catalogue_memory_working_set_bytes": 0.030299113917853823,
+  "catalogue_istio_latency": 0.041118080349921954,
+  "catalogue_istio_requests": 0.046464646464646334,
+  "carts_cpu_usage_seconds": 0.42470015032085107,
+  "carts_memory_usage_bytes": 0.06060606060606061,
+  "carts_memory_working_set_bytes": 0.06060606060606061,
+  "carts_istio_latency": 0.05663170002380734,
+  "carts_istio_requests": 0.030185587680678087,
+  "payment_cpu_usage_seconds": 0.04487401099019002,
+  "payment_memory_usage_bytes": 0.001987083954297069,
+  "payment_memory_working_set_bytes": 0.001987083954297069,
+  "payment_istio_latency": 0.08097357409081841,
+  "payment_istio_requests": 0.045454545454545824,
+  "user_cpu_usage_seconds": 0.2641292932941491,
+  "user_memory_usage_bytes": 1.0,
+  "user_memory_working_set_bytes": 1.0,
+  "user_istio_latency": 0.035874909944006585,
+  "user_istio_requests": 0.08585858585858552,
+  "orders_cpu_usage_seconds": 0.023648629256897265,
+  "orders_memory_usage_bytes": 0.4090909090909091,
+  "orders_memory_working_set_bytes": 0.4090909090909091,
+  "orders_istio_latency": 0.07050726239171116,
+  "orders_istio_requests": 0.028520499108734453
+ },
+ "rank_a": 5,
+ "rank_b": 10,
+ "n_ranked": 25,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "0": [
+    "user_memory_usage_bytes",
+    "user_memory_working_set_bytes"
+   ],
+   "1": [
+    "orders_memory_usage_bytes",
+    "orders_memory_working_set_bytes",
+    "carts_cpu_usage_seconds"
+   ],
+   "2": [
+    "payment_istio_latency",
+    "orders_istio_latency",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "carts_istio_latency",
+    "catalogue_cpu_usage_seconds",
+    "payment_cpu_usage_seconds",
+    "catalogue_istio_latency",
+    "user_istio_latency",
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes",
+    "carts_istio_requests",
+    "payment_istio_requests",
+    "orders_cpu_usage_seconds",
+    "catalogue_istio_requests",
+    "orders_istio_requests",
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes",
+    "user_istio_requests"
+   ],
+   "noise_1000": [
+    "user_cpu_usage_seconds"
+   ]
+  }
+ }
+}

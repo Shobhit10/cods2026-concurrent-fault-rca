@@ -1,0 +1,3 @@
+case_id,pair,svc_cpu,svc_mem,rank_cpu,rank_mem,k_star,n_ranked,both_in_input,both2,both5,grouped_ac1
+boutique_cpu-mem_pair3_rep3,boutique_cpu-mem_pair3,currencyservice,productcatalogservice,4,2,4,20,1,0,1,0.0
+sockshop_cpu-mem_pair3_rep5,sockshop_cpu-mem_pair3,carts,payment,3,2,3,12,1,0,1,0.5

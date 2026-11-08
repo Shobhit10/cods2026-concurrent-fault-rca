@@ -1,0 +1,221 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_cpu-mem_carts_user_rep2",
+ "namespace": "sock-shop",
+ "svc_a": "carts",
+ "fault_a": "cpu",
+ "svc_b": "user",
+ "fault_b": "mem",
+ "pair": "sockshop_cpu-mem_carts_user",
+ "rep": 2,
+ "data_md5": "73068d54e6c3f4be2ecb3322dc487ded",
+ "n_rows": 59,
+ "n_cols": 26,
+ "detected": true,
+ "anomaly_idx": 31,
+ "ranked_nsigma": [
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "carts_istio_latency",
+  "orders_istio_latency",
+  "carts_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "orders_istio_requests",
+  "orders_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "payment_istio_requests",
+  "user_istio_requests",
+  "user_cpu_usage_seconds",
+  "catalogue_istio_requests",
+  "carts_istio_requests",
+  "payment_istio_latency",
+  "user_istio_latency",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes"
+ ],
+ "status": "ok",
+ "ranked": [
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_latency",
+  "orders_istio_latency",
+  "carts_cpu_usage_seconds",
+  "payment_istio_requests",
+  "user_istio_requests",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_requests",
+  "payment_istio_latency",
+  "orders_cpu_usage_seconds",
+  "orders_istio_requests",
+  "payment_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "user_cpu_usage_seconds",
+  "user_istio_latency"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_usage_bytes",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_usage_bytes",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_usage_bytes",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests",
+  "user_cpu_usage_seconds",
+  "user_memory_usage_bytes",
+  "user_memory_working_set_bytes",
+  "user_istio_latency",
+  "user_istio_requests",
+  "orders_cpu_usage_seconds",
+  "orders_memory_usage_bytes",
+  "orders_memory_working_set_bytes",
+  "orders_istio_latency",
+  "orders_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 1.1425601027087945e-05,
+  "catalogue_memory_usage_bytes": 0.000255584716796875,
+  "catalogue_memory_working_set_bytes": 0.000255584716796875,
+  "catalogue_istio_latency": 5.174698611552396e-06,
+  "catalogue_istio_requests": 7.302365569914604e-05,
+  "carts_cpu_usage_seconds": 2.3422916107489595e-05,
+  "carts_memory_usage_bytes": 3.782640986081933e-06,
+  "carts_memory_working_set_bytes": 3.782640986081933e-06,
+  "carts_istio_latency": 0.0002310964643900507,
+  "carts_istio_requests": 0.0001017252604166664,
+  "payment_cpu_usage_seconds": 7.38560861352712e-06,
+  "payment_memory_usage_bytes": 1.0,
+  "payment_memory_working_set_bytes": 1.0,
+  "payment_istio_latency": 1.4776880351676358e-05,
+  "payment_istio_requests": 0.0001411437988281223,
+  "user_cpu_usage_seconds": 1.3635774513111387e-05,
+  "user_memory_usage_bytes": 0.011809539794921876,
+  "user_memory_working_set_bytes": 0.011809539794921876,
+  "user_istio_latency": 1.0994201478279969e-05,
+  "user_istio_requests": 8.18888346354176e-05,
+  "orders_cpu_usage_seconds": 1.427211675337076e-05,
+  "orders_memory_usage_bytes": 3.814697265625e-06,
+  "orders_memory_working_set_bytes": 3.814697265625e-06,
+  "orders_istio_latency": 0.00015411727966961413,
+  "orders_istio_requests": 1.456520774147726e-05
+ },
+ "rank_a": 7,
+ "rank_b": 3,
+ "n_ranked": 25,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "0": [
+    "payment_memory_usage_bytes",
+    "payment_memory_working_set_bytes"
+   ],
+   "1": [
+    "user_memory_usage_bytes",
+    "user_memory_working_set_bytes",
+    "catalogue_memory_usage_bytes",
+    "catalogue_memory_working_set_bytes",
+    "carts_istio_latency",
+    "orders_istio_latency",
+    "carts_cpu_usage_seconds",
+    "payment_istio_requests",
+    "user_istio_requests",
+    "catalogue_istio_latency",
+    "catalogue_istio_requests",
+    "orders_memory_usage_bytes",
+    "orders_memory_working_set_bytes",
+    "carts_memory_usage_bytes",
+    "carts_memory_working_set_bytes",
+    "carts_istio_requests",
+    "payment_istio_latency",
+    "orders_cpu_usage_seconds",
+    "orders_istio_requests",
+    "payment_cpu_usage_seconds",
+    "catalogue_cpu_usage_seconds",
+    "user_cpu_usage_seconds",
+    "user_istio_latency"
+   ]
+  }
+ }
+}

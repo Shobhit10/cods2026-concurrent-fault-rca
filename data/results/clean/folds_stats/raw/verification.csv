@@ -1,0 +1,68 @@
+item,paper,recomputed,stored_csv,match,note
+concurrent cases injected,30,30,,OK,
+change point detected (of 30),30,30,,OK,
+usable concurrent cases,28,30,,MISMATCH,2 excluded: 
+single-fault cases,200,200,,OK,
+"single-fault cases, Online Boutique",100,100,,OK,
+"single-fault cases, Sock Shop",100,100,,OK,
+"single-fault AC@1, Online Boutique",0.7,0.7,0.7,OK,k=70/100; stored = rq3_results.csv
+"single-fault AC@1, Sock Shop",0.85,0.85,0.85,OK,k=85/100; stored = rq3_results.csv
+"single-fault AC@1 per (service, fault type) == rq3_results.csv",,identical,,OK,40 scenarios x 5 reps
+Table 1 AC@1 overall,0.143,0.31666666666666665,0.14285714285714285,MISMATCH,hits=19 of 60
+Table 1 AC@1 Boutique,0.067,0.26666666666666666,0.06666666666666667,MISMATCH,hits=8 of 30
+Table 1 AC@1 Sock Shop,0.231,0.36666666666666664,0.23076923076923078,MISMATCH,hits=11 of 30
+Table 1 AC@2 overall,0.232,0.38333333333333336,0.23214285714285715,MISMATCH,hits=23 of 60
+Table 1 AC@2 Boutique,0.167,0.3,0.16666666666666666,MISMATCH,hits=9 of 30
+Table 1 AC@2 Sock Shop,0.308,0.4666666666666667,0.3076923076923077,MISMATCH,hits=14 of 30
+Table 1 AC@3 overall,0.375,0.7166666666666667,0.375,MISMATCH,hits=43 of 60
+Table 1 AC@3 Boutique,0.3,0.5666666666666667,0.3,MISMATCH,hits=17 of 30
+Table 1 AC@3 Sock Shop,0.462,0.8666666666666667,0.46153846153846156,MISMATCH,hits=26 of 30
+Table 1 AC@5 overall,0.536,0.8666666666666667,0.5357142857142857,MISMATCH,hits=52 of 60
+Table 1 AC@5 Boutique,0.4,0.7333333333333333,0.4,MISMATCH,hits=22 of 30
+Table 1 AC@5 Sock Shop,0.692,1.0,0.6923076923076923,MISMATCH,hits=30 of 30
+Table 1 Both@2 overall,0.071,0.1,0.07142857142857142,MISMATCH,cases=3 of 30
+Table 1 Both@2 Boutique,0.067,0.0,0.06666666666666667,MISMATCH,cases=0 of 15
+Table 1 Both@2 Sock Shop,0.077,0.2,0.07692307692307693,MISMATCH,cases=3 of 15
+Table 1 Both@5 overall,0.321,0.7666666666666667,0.32142857142857145,MISMATCH,cases=23 of 30
+Table 1 Both@5 Boutique,0.267,0.5333333333333333,0.26666666666666666,MISMATCH,cases=8 of 15
+Table 1 Both@5 Sock Shop,0.385,1.0,0.38461538461538464,MISMATCH,cases=15 of 15
+Table 1 Any@5 overall,0.75,0.9666666666666667,0.75,MISMATCH,cases=29 of 30
+Table 1 Any@5 Boutique,0.533,0.9333333333333333,0.5333333333333333,MISMATCH,cases=14 of 15
+Table 1 Any@5 Sock Shop,1.0,1.0,1.0,OK,cases=15 of 15
+Fig 3 Both@3 overall,0.107,0.4666666666666667,0.10714285714285714,MISMATCH,14/28
+per-case ac1 == rq1_results.csv (28 cases),,False,,MISMATCH,
+per-case ac2 == rq1_results.csv (28 cases),,False,,MISMATCH,
+per-case ac3 == rq1_results.csv (28 cases),,False,,MISMATCH,
+per-case ac5 == rq1_results.csv (28 cases),,False,,MISMATCH,
+per-case both2 == second_ranker_percase.csv (robust),,False,,MISMATCH,
+per-case both3 == second_ranker_percase.csv (robust),,False,,MISMATCH,
+per-case both5 == second_ranker_percase.csv (robust),,False,,MISMATCH,
+per-case any5 == second_ranker_percase.csv (robust),,False,,MISMATCH,
+per-case true-cause ranks == faulttype_ranks.csv,,False,,MISMATCH,
+second cause outside top 5 (%),68,23.333333333333332,,MISMATCH,7/28
+"median rank, better-ranked cause",3,1.0,,MISMATCH,
+"median rank, second cause",6,4.0,,MINOR,
+CPU-cause recall@5,0.61,0.7666666666666667,,MISMATCH,23/28
+memory-cause recall@5,0.46,0.9666666666666667,,MISMATCH,29/28
+Table 2 N-Sigma ac2,0.232,0.2,0.23214285714285715,MISMATCH,
+Table 2 N-Sigma both2,0.071,0.06666666666666667,0.07142857142857142,MISMATCH,
+Table 2 N-Sigma both5,0.464,0.5,0.4642857142857143,MISMATCH,
+Table 2 N-Sigma any5,0.893,0.8666666666666667,0.8928571428571429,MISMATCH,
+top-10 ranked lists == rankings_robust.csv (28 cases),,False,,MISMATCH,
+first (rank-position) design: single-fault kept as one group,0.0,0.0,0.0,OK,"0/200 at alpha=0.5, eps=0.3"
+"metric columns per case, concurrent (max)",25,25,,OK,metric columns (excl. time) range 15-25; ranked candidates after preprocessing 13-25; paper: 'carry 25 scored columns'
+"metric columns per case, single-fault (mode)",59,59,,OK,"mode in 81/200 cases; metric columns (excl. time) range 56-60; ranked candidates after preprocessing 51-57; paper: 'carries 59' (typical value, not the max); concurrent 25 = every Boutique case (15/28), Sock Shop cases have 15"
+stored crossval_results.csv separation mean,0.073,0.07333333333333332,,OK,
+stored crossval_results.csv separation SD,0.101,0.10110500592068733,,OK,
+stored crossval_results.csv grouped_ac1 mean,0.277,0.27666666666666667,,OK,
+stored crossval_results.csv grouped_ac1 SD,0.132,0.13155058173780745,,OK,
+stored crossval_results.csv single_kept mean,0.91,0.9099999999999999,,OK,
+stored crossval_results.csv single_kept SD,0.034,0.03354101966249684,,OK,
+stored crossval_results.csv hit_rate mean,0.74,0.74,,OK,
+stored crossval_results.csv hit_rate SD,0.055,0.054772255750516585,,OK,
+"stored crossval: folds choosing alpha=0.7, eps=0.4",5,5,,OK,
+pooled held-out separated cases (count),2,17,1.9999999999999996,MISMATCH,"paper value = count implied by crossval_results.csv; recomputed on all 28 at (0.7,0.4)"
+pooled grouped AC@1 sum (half-points),7.5,19.0,7.5,MISMATCH,
+pooled single-fault kept (count),182,182,182.0,OK,
+pooled single-fault hit (count),148,148,148.0,OK,
+"INFO: rq3_v2_final_results.csv (15 Aug, superseded pre-RobustScaler proxy; NOT used in paper)",,"file: kept 181/200, hit 141/200",,INFO,matches the 'intermediate step' 0.905/0.705 in PROJECT_CONTEXT (1).md; the paper uses crossval_results.csv

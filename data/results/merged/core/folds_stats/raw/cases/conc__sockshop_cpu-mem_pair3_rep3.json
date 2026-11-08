@@ -1,0 +1,156 @@
+{
+ "kind": "concurrent",
+ "case_id": "sockshop_cpu-mem_pair3_rep3",
+ "namespace": "sock-shop",
+ "svc_a": "carts",
+ "fault_a": "cpu",
+ "svc_b": "payment",
+ "fault_b": "mem",
+ "pair": "sockshop_cpu-mem_pair3",
+ "rep": 3,
+ "data_md5": "9c9b31cc61ddc19310d6a6e96bf040a2",
+ "n_rows": 59,
+ "n_cols": 13,
+ "detected": true,
+ "anomaly_idx": 32,
+ "ranked_nsigma": [
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_cpu_usage_seconds",
+  "payment_memory_working_set_bytes",
+  "carts_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "payment_cpu_usage_seconds",
+  "catalogue_cpu_usage_seconds",
+  "payment_istio_latency",
+  "carts_istio_requests",
+  "payment_istio_requests",
+  "catalogue_istio_requests"
+ ],
+ "status": "ok",
+ "ranked": [
+  "catalogue_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_cpu_usage_seconds",
+  "payment_memory_working_set_bytes",
+  "carts_memory_working_set_bytes",
+  "payment_cpu_usage_seconds",
+  "payment_istio_latency",
+  "catalogue_istio_latency",
+  "catalogue_cpu_usage_seconds",
+  "carts_istio_requests",
+  "payment_istio_requests",
+  "catalogue_istio_requests"
+ ],
+ "node_names": [
+  "catalogue_cpu_usage_seconds",
+  "catalogue_memory_working_set_bytes",
+  "catalogue_istio_latency",
+  "catalogue_istio_requests",
+  "carts_cpu_usage_seconds",
+  "carts_memory_working_set_bytes",
+  "carts_istio_latency",
+  "carts_istio_requests",
+  "payment_cpu_usage_seconds",
+  "payment_memory_working_set_bytes",
+  "payment_istio_latency",
+  "payment_istio_requests"
+ ],
+ "dev_scores": {
+  "catalogue_cpu_usage_seconds": 0.08481645686041021,
+  "catalogue_memory_working_set_bytes": 1.0,
+  "catalogue_istio_latency": 0.09772567890803646,
+  "catalogue_istio_requests": 0.3869318181818183,
+  "carts_cpu_usage_seconds": 0.23781341236380693,
+  "carts_memory_working_set_bytes": 0.04878048780487806,
+  "carts_istio_latency": 0.5554542350538587,
+  "carts_istio_requests": 0.3113839285714292,
+  "payment_cpu_usage_seconds": 0.36643015613954855,
+  "payment_memory_working_set_bytes": 0.18520217654943513,
+  "payment_istio_latency": 0.07879791555250286,
+  "payment_istio_requests": 0.3419117647058839
+ },
+ "rank_a": 2,
+ "rank_b": 4,
+ "n_ranked": 12,
+ "grid": {
+  "0.3_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.3_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.5_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.5_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.1": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.15": {
+   "separated": false,
+   "grouped_ac1": 0.0
+  },
+  "0.7_0.2": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.3": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "0.7_0.4": {
+   "separated": false,
+   "grouped_ac1": 0.5
+  },
+  "groups_0.7_0.4": {
+   "noise_1000": [
+    "catalogue_memory_working_set_bytes"
+   ],
+   "0": [
+    "carts_istio_latency",
+    "carts_cpu_usage_seconds",
+    "payment_memory_working_set_bytes",
+    "carts_memory_working_set_bytes",
+    "payment_cpu_usage_seconds",
+    "payment_istio_latency",
+    "catalogue_istio_latency",
+    "catalogue_cpu_usage_seconds",
+    "carts_istio_requests",
+    "payment_istio_requests",
+    "catalogue_istio_requests"
+   ]
+  }
+ }
+}

@@ -1,0 +1,24 @@
+% src: data/results/camera_ready/rankers/summary_concurrent.json
+%      (scripts/step1_precompute_baro.py, step2_causal.py, step3_evaluate.py; table by scripts/make_tables.py)
+% 28 concurrent cases, same bocpd change point and candidate metrics for every ranker;
+% metric-level lists, AC@k/Both@k/Any@k as Eqs. (ack)-(anyk); Sep. = released stage, alpha=0.7, eps=0.4.
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\caption{The bound holds for every ranker. Five rankers on the same 28 concurrent cases (same change point and candidate metrics). Sep.\ is the fraction of cases the corrected stage ($\alpha{=}0.7$, $\varepsilon{=}0.4$) separates when fed that ranker's list; no case is separated unless both causes are among the entries it partitions (Proposition~\ref{prop:bound}).}
+\label{tab:rankers}
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+\textbf{Ranker} & \textbf{AC@1} & \textbf{AC@2} & \textbf{AC@5} & \textbf{Both@2} & \textbf{Both@5} & \textbf{Any@5} & \textbf{Sep.}\\
+\midrule
+Robust (paper) & .317 & .383 & .867 & .100 & .767 & .967 & .567 \\
+N-Sigma & .133 & .200 & .683 & .067 & .500 & .867 & .067 \\
+PageRank & .250 & .250 & .267 & .000 & .000 & .533 & .433 \\
+CIRCA & .217 & .367 & .683 & .133 & .467 & .900 & .033 \\
+RCD$^{\dagger}$ & .223 & .397 & .553 & .117 & .293 & .813 & .030 \\
+\midrule
+Random$^{\ddagger}$ & .268 & .472 & .816 & .162 & .659 & .973 & .091 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\raggedright\scriptsize $^{\dagger}$Mean of 10 seeds; RCD returns a short list (3.7 entries on average). $^{\ddagger}$Exact expectation over random orderings of the same candidates (Sep.\ by Monte Carlo).
+\end{table}

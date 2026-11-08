@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte (no line-ending conversion). The analysis code checks the md5 of
+# analysis/original/*.py and records the md5 of each data file, so conversion would break those checks.
+* -text
